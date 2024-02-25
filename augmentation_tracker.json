@@ -16,9 +16,9 @@
         "trendyDesign", 
         "brandsection",
         "countdown",
-        "featureDesign",
+        "newArrival", 
         "productsAds",
-        "newArrival",
+        "featureDesign",
         "productsAds",
         "popularSales",
         "DiscountBanner",
@@ -239,69 +239,70 @@
         "description": "a text heading and card inside"
         
       },
-      "featureDesignSection": {
-      "count": 1,
-      "location": "bottom of the CampaignCountDown",
-      "children": {   
-        "featureDesign": {
-          "count": 1,
-          "location": "left side in the featureDesign section",
-          "description": "Heading"
-        },
-        "viewMoreTitle": {
-          "count": 1,
-          "location": "Right side of the TrendyDesign text",
-          "description": "Text and right arrow image"
-        },
-        "SectionStyleThreeHmFour": {
-            "count": 1,
-            "location": "bottom of the Feature Design section",
-            "children": {   
-              "cardLists": {
-                "count": 4,
-                "location": "",
-                "description": "a card with heading and price "
-              }
-            }
-             }
-      },
-      "children_orientation_description": "heading is a text,cardLists is a card  viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,featureDesign and viewMoreTitle are arranged in a flex format"
-        },
     
+    "newArrivalSection": {
+          "count": 1,
+          "location": "bottom of the CampaignCountDown",
+          "children": {   
+            "newArrival": {
+              "count": 1,
+              "location": "left side in the newArrival section",
+              "description": "Heading"
+            },
+            "viewMoreTitle": {
+              "count": 1,
+              "location": "Right side of the TrendyDesign text",
+              "description": "Text and right arrow image"
+            },
+            "SectionStyleOneHmFour": {
+              "count": 1,
+              "location": "bottom of the new arrival",
+              "children": {   
+                "cardLists": {
+                  "count": 12,
+                  "location": "",
+                  "description": "a card with heading and price "
+                }
+              }
+               }
+          },
+          "children_orientation_description": "heading is a text, card lists is a card, viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,newArrival and viewMoreTitle are arranged in a flex format"        
+       },
+       "featureDesignSection": {
+        "count": 1,
+        "location": "bottom of the newArrivalSection",
+        "children": {   
+          "featureDesign": {
+            "count": 1,
+            "location": "left side in the featureDesign section",
+            "description": "Heading"
+          },
+          "viewMoreTitle": {
+            "count": 1,
+            "location": "Right side of the TrendyDesign text",
+            "description": "Text and right arrow image"
+          },
+          "SectionStyleThreeHmFour": {
+              "count": 1,
+              "location": "bottom of the Feature Design section",
+              "children": {   
+                "cardLists": {
+                  "count": 4,
+                  "location": "",
+                  "description": "a card with heading and price "
+                }
+              }
+               }
+        },
+        "children_orientation_description": "heading is a text,cardLists is a card  viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,featureDesign and viewMoreTitle are arranged in a flex format"
+          },
+  
     "ProductsAds": {
         "count": 1,
         "location": "bottom of the SectionStyleThreeHmFour",    
         "description": "Image with full width "
           },
-          "newArrivalSection": {
-            "count": 1,
-            "location": "bottom of the serviceCard",
-            "children": {   
-              "newArrival": {
-                "count": 1,
-                "location": "left side in the newArrival section",
-                "description": "Heading"
-              },
-              "viewMoreTitle": {
-                "count": 1,
-                "location": "Right side of the TrendyDesign text",
-                "description": "Text and right arrow image"
-              },
-              "SectionStyleOneHmFour": {
-                "count": 1,
-                "location": "bottom of the new arrival",
-                "children": {   
-                  "cardLists": {
-                    "count": 12,
-                    "location": "",
-                    "description": "a card with heading and price "
-                  }
-                }
-                 }
-            },
-            "children_orientation_description": "heading is a text, card lists is a card, viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,newArrival and viewMoreTitle are arranged in a flex format"        
-         },
-      
+    
       
       "ProductsAdsone": {
         "count": 1,
