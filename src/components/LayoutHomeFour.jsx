@@ -1,6 +1,4 @@
 import { useState } from "react";
-// import DiscountBanner from "../HomeFour/DiscountBanner";
-
 import DiscountBanner from "./Home/DiscountBanner";
 import Drawer from "./Drawer";
 import HeaderFour from "./Headers";
