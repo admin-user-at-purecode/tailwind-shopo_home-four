@@ -27,10 +27,7 @@ function Index() {
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
       />
-      <ProductsAds
-        ads={[`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-3.png`]}
-        className="products-ads-section mb-[60px]"
-      />
+      
       <SectionStyleThreeHmFour
         sectionTitle="New Arrival"
         seeMoreUrl="/all-products"

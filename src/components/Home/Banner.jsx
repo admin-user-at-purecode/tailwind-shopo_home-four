@@ -1,4 +1,5 @@
 import Star from '../icons/Star'
+import image from '../../assets/images/service-bg.png'
 export default function Banner({ className }) {
 
   const bannerData = [
@@ -50,9 +51,7 @@ export default function Banner({ className }) {
             <div
               data-aos="fade-up"
               style={{
-                backgroundImage: `url(${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/src/assets/images/service-bg.png)`,
+                backgroundImage: `url(${image})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
               }}

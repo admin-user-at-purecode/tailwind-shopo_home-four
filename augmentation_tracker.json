@@ -17,7 +17,6 @@
         "brandsection",
         "countdown",
         "featureDesign",
-        "productsAds",
         "newArrival",
         "productsAds",
         "popularSales",
@@ -268,11 +267,7 @@
       "children_orientation_description": "heading is a text,cardLists is a card  viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,featureDesign and viewMoreTitle are arranged in a flex format"
         },
     
-    "ProductsAds": {
-        "count": 1,
-        "location": "bottom of the SectionStyleThreeHmFour",    
-        "description": "Image with full width "
-          },
+    
           "newArrivalSection": {
             "count": 1,
             "location": "bottom of the serviceCard",
