@@ -192,9 +192,21 @@
     },
     "children_orientation_description": "List of grids, cards,  --  all arranged in a flex format "
     },
+    "brandsection": {
+      "count": 1,
+      "location": "full width of the brand cards and bottom of the Banner section",
+      "description": "a flex container",
+      "children": {
+        "brandcards": {
+          "count": 12,
+          "location": "bottom of the ProductCardStyleThree",
+          "description": "cards with grid container having brand images."
+        }
+      }
+    },
     "trendyDesignSection": {
         "count": 1,
-        "location": "bottom of the serviceCard",
+        "location": "bottom of the Brand section",
         "children": {   
           "trendyDesign": {
             "count": 1,
@@ -221,21 +233,9 @@
         },
         "children_orientation_description": "heading is a text,cardLists is a card viewMoreTitle is a text with image  -- ProductCardStyleThree arranged in Grid format,trendyDesign and viewMoreTitle are arranged in a flex format"
     },
-      "brandsection": {
-        "count": 1,
-        "location": "full width of the brand cards bottom of the sectionstyleone",
-        "description": "a flex container",
-        "children": {
-          "brandcards": {
-            "count": 12,
-            "location": "bottom of the ProductCardStyleThree",
-            "description": "cards with grid container having brand images."
-          }
-        }
-      },
       "CampaignCountDown": {
         "count": 1,
-        "location": "bottom of the brandsection",
+        "location": "bottom of the trendyDesignSection",
         "description": "a text heading and card inside"
         
       },
