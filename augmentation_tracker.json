@@ -13,9 +13,9 @@
         "navbar",
         "drawer",
         "banner",
-        "trendyDesign", 
         "brandsection",
         "countdown",
+        "trendyDesign", 
         "featureDesign",
         "productsAds",
         "newArrival",
@@ -204,9 +204,16 @@
         }
       }
     },
-    "trendyDesignSection": {
+    
+      "CampaignCountDown": {
         "count": 1,
-        "location": "bottom of the Brand section",
+        "location": "bottom of the BrandSection",
+        "description": "a text heading and card inside"
+        
+      },
+      "trendyDesignSection": {
+        "count": 1,
+        "location": "bottom of the CampaignCountDown",
         "children": {   
           "trendyDesign": {
             "count": 1,
@@ -233,15 +240,9 @@
         },
         "children_orientation_description": "heading is a text,cardLists is a card viewMoreTitle is a text with image  -- ProductCardStyleThree arranged in Grid format,trendyDesign and viewMoreTitle are arranged in a flex format"
     },
-      "CampaignCountDown": {
-        "count": 1,
-        "location": "bottom of the trendyDesignSection",
-        "description": "a text heading and card inside"
-        
-      },
       "featureDesignSection": {
       "count": 1,
-      "location": "bottom of the CampaignCountDown",
+      "location": "bottom of the trendyDesignSection",
       "children": {   
         "featureDesign": {
           "count": 1,
