@@ -14,7 +14,7 @@ function Index() {
     <LayoutHomeFour>
       <Banner className="mb-[60px]" />
       <SectionStyleOneHmFour
-        products={products.slice(16, 20)}
+        products={products.slice(16, 24)}
         sectionTitle="Trendy Design"
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
