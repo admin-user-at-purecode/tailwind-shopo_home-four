@@ -292,7 +292,7 @@
                 "location": "bottom of the new arrival",
                 "children": {   
                   "cardLists": {
-                    "count": 12,
+                    "count": 4,
                     "location": "",
                     "description": "a card with heading and price "
                   }
@@ -389,5 +389,5 @@
             },
     "functionality": {},
     "sizing_updates": [],
-    "screen_and_layout_augmentations": []
+    "screen_and_layout_augmentations": ["Removed 8 cards from the SectionStyleOneHmFour"]
   }

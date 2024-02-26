@@ -34,7 +34,7 @@ function Index() {
       <SectionStyleThreeHmFour
         sectionTitle="New Arrival"
         seeMoreUrl="/all-products"
-        products={products.slice(16, 28)}
+        products={products.slice(16, 20)}
         className="mb-[60px]"
       />
 
