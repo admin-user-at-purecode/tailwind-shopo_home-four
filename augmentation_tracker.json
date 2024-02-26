@@ -346,14 +346,10 @@
             "count":1,
             "location":"bottom of the page and below DiscountBanner",
             "children":{
-                "footerLogo":{
-                    "count":1,
-                    "location":"below of AllProductsPage",
-                    "description":"it is a logo of website"
-                },
+                
                 "footerItemsContainer":{
                     "count":1,
-                    "location":"below footerLogo",
+                    "location":"below AllProductsPage",
                     "children":{
                         "footerItem":{
                             "count":4,
@@ -389,5 +385,5 @@
             },
     "functionality": {},
     "sizing_updates": [],
-    "screen_and_layout_augmentations": []
+    "screen_and_layout_augmentations": ["Removed the logo at the footer"]
   }

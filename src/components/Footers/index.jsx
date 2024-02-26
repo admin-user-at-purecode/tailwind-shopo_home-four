@@ -20,26 +20,7 @@ export default function Footer({ type }) {
   return (
     <footer className="footer-section-wrapper bg-white print:hidden">
       <div className="container-x block mx-auto pt-[56px]">
-        <div className="w-full flex flex-col items-center mb-[30px]">
-          <div className="mb-[40px]">
-            {type === 3 ? (
-                <img
-                  width="152"
-                  height="36"
-                  src={logo}
-                  alt="logo"
-                />
-            ) : (
-                <img
-                  width="152"
-                  height="36"
-                  src={logo}
-                  alt="logo"
-                />
-            )}
-          </div>
-          <div className="w-full h-[1px] bg-[#E9E9E9]"></div>
-        </div>
+       
         <div className="lg:flex justify-between mb-[30px]">
           <div className="lg:w-[424px]  ml-0 w-full mb-10 lg:mb-0">
             <h1 className="text-[18px] font-600 text-[#2F2F2F] mb-5">About Us</h1>
