@@ -328,7 +328,7 @@
                 "location": "bottom of the new arrival",
                 "children": {   
                   "cardLists": {
-                    "count": 12,
+                    "count": 9,
                     "location": "",
                     "description": "a card with heading and price "
                   }
@@ -389,5 +389,5 @@
             },
     "functionality": {},
     "sizing_updates": [],
-    "screen_and_layout_augmentations": []
+    "screen_and_layout_augmentations": ["Removed 3 cards from the ProductCardRowStyleTwo component"]
   }
