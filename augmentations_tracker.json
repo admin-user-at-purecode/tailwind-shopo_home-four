@@ -1,0 +1,89 @@
+{
+    "theme_augmentations": {
+      "color": "pink",
+      "font": "Sans-serif",
+      "size": "12px",
+      "background": "white",
+    },
+    "component_names": [
+        "topbar",
+        "middlebar",
+        "searchbox",
+        "selectbox",
+        "navbar",
+        "drawer",
+        "banner",
+        "trendyDesign", 
+        "brandsection",
+        "countdown",
+        "featureDesign",
+        "productsAds",
+        "newArrival",
+        "productsAds",
+        "popularSales",
+        "DiscountBanner",
+        "footer"
+    ],
+    "component_information": {
+      "header": 1,
+      "topbar": {
+        "count": 1,
+        "location": "top of the page",
+        "children": {
+          "topbar-nav": {
+            "count": 3,
+            "location": "left side in the Tobbar",
+            "description": "List of items with flex container"
+          },
+          "countrySelections": {
+            "count": 3,
+            "location": "right side of the list items in the Topbar",
+            "description": "List of selectboxs with country Details and Language"
+          }
+        },
+        "children_orientation_description": "The left side text is list items and the right side is select boxes --  all arranged in a flex format "
+      },
+      "middlebar": {
+        "count": 1,
+        "location": "bottom of the topbar",
+        "children": {
+          "Logo": {
+            "count": 1,
+            "location": "Left side in the middlebar",
+            "description": "A logo"
+          },
+        "searchbox": {
+          "count": 1,
+          "location": "Center in the middlebar",
+          "description": "A searchbox, selectbox with search button"
+        },
+        "ProfileButtons": {
+            "count": 4,
+            "location": "right side in the middlebar",
+            "description": "A flex container"
+          },
+
+        "children_orientation_description": "A Logo, Searchbox, Selectbox and list of images -- all arranged in a flex format"
+      },
+      "category": {
+        "count": 1,
+        "location": "left part of the page, bottom of the analyticsCardList",
+        "children": {
+          "categoryCardHeading": {
+            "count": 1,
+            "location": "bottom of the analyticsCardList",
+            "description": "a text"
+          },
+          "categoryCardList": {
+            "count": 1,
+            "location": "full width of the category, bottom of the categoryCardHeading",
+            "description": "a flex container",
+            "children": {
+              "categoryCard": {
+                "count": 4,
+                "location": "bottom of the analyticsCardList",
+                "description": "a card"
+              }
+            }
+          }
+        },
