@@ -10,10 +10,6 @@ export default function Footer({ type }) {
     {
     menu: "General as",
     sub: ["Blog", "Tracking Order", "Become Seller"  ]
-    },
-    {
-    menu: "Helpful",
-    sub: ["Flash Sale" , "FAQ", "Support" ]
     }
     ]
 
