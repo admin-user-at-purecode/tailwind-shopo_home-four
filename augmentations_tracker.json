@@ -354,19 +354,6 @@ Augmentation ---
                   "location":"below of AllProductsPage",
                   "description":"it is a logo of website"
               },
-              "footerItemsContainer":{
-                  "count":1,
-                  "location":"below footerLogo",
-                  "children":{
-                      "footerItem":{
-                          "count":4,
-                          "location":"Inside footerItemsContainer from left to right",
-                          "description":"it is a flex item"
-                      }
-                  },
-                  "description":"which has flex containers",
-                  "children_orientation_description":"footerItem is a flex container"
-              },
               "footerBottom":{
                   "count":1,
                   "location":"bottom last of the page",
@@ -392,5 +379,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": ["Added 4 Cards to the SectionStyleThreeHmFour"]
+  "screen_and_layout_augmentations": ["Removed footerItemsContainer"]
 }
