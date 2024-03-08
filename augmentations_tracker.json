@@ -1,89 +1,363 @@
 {
-    "theme_augmentations": {
-      "color": "pink",
-      "font": "Sans-serif",
-      "size": "12px",
-      "background": "white",
+  "theme_augmentations": {
+    "color": "pink",
+    "font": "Sans-serif",
+    "size": "12px",
+    "background": "white"
+  },
+  "component_names": [
+      "topbar",
+      "middlebar",
+      "searchbox",
+      "selectbox",
+      "navbar",
+      "drawer",
+      "trendyDesign", 
+      "brandsection",
+      "countdown",
+      "featureDesign",
+      "productsAds",
+      "newArrival",
+      "productsAds",
+      "popularSales",
+      "DiscountBanner",
+      "footer"
+  ],
+  "component_information": {
+    "header": 1,
+    "topbar": {
+      "count": 1,
+      "location": "top of the page",
+      "children": {
+        "topbar-nav": {
+          "count": 3,
+          "location": "left side in the Tobbar",
+          "description": "List of items with flex container"
+        },
+        "countrySelections": {
+          "count": 3,
+          "location": "right side of the list items in the Topbar",
+          "description": "List of selectboxs with country Details and Language"
+        }
+      },
+      "children_orientation_description": "The left side text is list items and the right side is select boxes --  all arranged in a flex format "
     },
-    "component_names": [
-        "topbar",
-        "middlebar",
-        "searchbox",
-        "selectbox",
-        "navbar",
-        "drawer",
-        "banner",
-        "trendyDesign", 
-        "brandsection",
-        "countdown",
-        "featureDesign",
-        "productsAds",
-        "newArrival",
-        "productsAds",
-        "popularSales",
-        "DiscountBanner",
-        "footer"
-    ],
-    "component_information": {
-      "header": 1,
-      "topbar": {
-        "count": 1,
-        "location": "top of the page",
-        "children": {
-          "topbar-nav": {
-            "count": 3,
-            "location": "left side in the Tobbar",
-            "description": "List of items with flex container"
-          },
-          "countrySelections": {
-            "count": 3,
-            "location": "right side of the list items in the Topbar",
-            "description": "List of selectboxs with country Details and Language"
-          }
-        },
-        "children_orientation_description": "The left side text is list items and the right side is select boxes --  all arranged in a flex format "
-      },
-      "middlebar": {
-        "count": 1,
-        "location": "bottom of the topbar",
-        "children": {
-          "Logo": {
-            "count": 1,
-            "location": "Left side in the middlebar",
-            "description": "A logo"
-          },
-        "searchbox": {
+    "middlebar": {
+      "count": 1,
+      "location": "bottom of the topbar",
+      "children": {
+        "Logo": {
           "count": 1,
-          "location": "Center in the middlebar",
-          "description": "A searchbox, selectbox with search button"
+          "location": "Left side in the middlebar",
+          "description": "A logo"
         },
-        "ProfileButtons": {
-            "count": 4,
-            "location": "right side in the middlebar",
-            "description": "A flex container"
-          },
-
-        "children_orientation_description": "A Logo, Searchbox, Selectbox and list of images -- all arranged in a flex format"
-      },
-      "category": {
+      "searchbox": {
         "count": 1,
-        "location": "left part of the page, bottom of the analyticsCardList",
-        "children": {
-          "categoryCardHeading": {
-            "count": 1,
-            "location": "bottom of the analyticsCardList",
-            "description": "a text"
-          },
-          "categoryCardList": {
-            "count": 1,
-            "location": "full width of the category, bottom of the categoryCardHeading",
-            "description": "a flex container",
-            "children": {
-              "categoryCard": {
-                "count": 4,
-                "location": "bottom of the analyticsCardList",
-                "description": "a card"
-              }
+        "location": "Center in the middlebar",
+        "description": "A searchbox, selectbox with search button"
+      },
+      "ProfileButtons": {
+          "count": 4,
+          "location": "right side in the middlebar",
+          "description": "A flex container"
+        },
+      
+      "children_orientation_description": "A Logo, Searchbox, Selectbox and list of images -- all arranged in a flex format"
+    },
+    "category": {
+      "count": 1,
+      "location": "left part of the page, bottom of the analyticsCardList",
+      "children": {
+        "categoryCardHeading": {
+          "count": 1,
+          "location": "bottom of the analyticsCardList",
+          "description": "a text"
+        },
+        "categoryCardList": {
+          "count": 1,
+          "location": "full width of the category, bottom of the categoryCardHeading",
+          "description": "a flex container",
+          "children": {
+            "categoryCard": {
+              "count": 4,
+              "location": "bottom of the analyticsCardList",
+              "description": "a card"
+            }
+          }
+        }
+      },
+      "children_orientation_description": "all categoryCard is a card, categoryCardList is a list of cards --  all the cards in categoryCardList are arranged in a grid format"
+    },
+    "product": {
+      "count": 1,
+      "location": "left part of the page, below of the category",
+      "children": {
+        "productCardHeading": {
+          "count": 1,
+          "location": "below of the category",
+          "description": "a text"
+        },
+        "productCardList": {
+          "count": 1,
+          "location": "full width of the product, below of the productCardHeading",
+          "description": "a flex container",
+          "children": {
+            "productCard": {
+              "count": 3,
+              "location": "below of the category",
+              "description": "a card"
+            }
+          }
+        }
+      },
+      "children_orientation_description": "all productCard is a card, productCardList is a list of cards --  all the cards in productCardList are arranged in a grid format"
+    },
+    "orderDataTable": {
+      "count": 1,
+      "location": "right side of the page, below the analyticsCardList",
+      "children": {
+        "dataTableHeading": {
+          "count": 1,
+          "location": "below the analyticsCardList",
+          "children": {
+            "orderHeading": {
+              "count": 1,
+              "location": "left side of the dataTableHeading",
+              "description": "a text"
+            },
+            "demoFilterDropdown": {
+              "count": 2,
+              "location": "right side of the dataTableHeading",
+              "description": "a select"
             }
           }
         },
+        "dataTable": {
+          "count": 1,
+          "location": "bottom of the dataTableHeading"
+        }
+      }
+    }
+  },
+  "navbar": {
+      "count": 1,
+      "location": "bottom of the Middlebar",
+      "children": {
+        "AllCategories": {
+          "count": 1,
+          "location": "left side in the Navbar",
+          "description": "categoriesLists"
+        },
+        "nav-wrapper": {
+          "count": 6,
+          "location": "right side of the AllCategories",
+          "description": "list of texts with flex container"
+        },
+        "becomeSellerButton": {
+          "count": 1,
+          "location": "right corner in the Navbar",
+          "description": "flex container with text (Become a Sellar) "
+        }
+      },
+      "children_orientation_description": "CategoriesLists, list of texts(HomePage, Shop, Pages, About, Blog,contact) Container --  all arranged in a flex format "
+    },
+   
+  "trendyDesignSection": {
+      "count": 1,
+      "location": "bottom of the Navbar",
+      "children": {   
+        "trendyDesign": {
+          "count": 1,
+          "location": "left side in the trendyDesign section",
+          "description": "Heading"
+        },
+        "viewMoreTitle": {
+          "count": 1,
+          "location": "Right side of the TrendyDesign text",
+          "description": "Text and right arrow image"
+        },
+        
+    "ProductCardStyleThree": {
+      "count": 1,
+      "location": "bottom of the Trendy Design",
+      "children": {   
+        "cardLists": {
+          "count": 4,
+          "location": "",
+          "description": "a card with heading and price "
+        }
+      }
+       }
+      },
+      "children_orientation_description": "heading is a text,cardLists is a card viewMoreTitle is a text with image  -- ProductCardStyleThree arranged in Grid format,trendyDesign and viewMoreTitle are arranged in a flex format"
+  },
+    "brandsection": {
+      "count": 1,
+      "location": "full width of the brand cards bottom of the sectionstyleone",
+      "description": "a flex container",
+      "children": {
+        "brandcards": {
+          "count": 12,
+          "location": "bottom of the ProductCardStyleThree",
+          "description": "cards with grid container having brand images."
+        }
+      }
+    },
+    "CampaignCountDown": {
+      "count": 1,
+      "location": "bottom of the brandsection",
+      "description": "a text heading and card inside"
+      
+    },
+    "featureDesignSection": {
+    "count": 1,
+    "location": "bottom of the CampaignCountDown",
+    "children": {   
+      "featureDesign": {
+        "count": 1,
+        "location": "left side in the featureDesign section",
+        "description": "Heading"
+      },
+      "viewMoreTitle": {
+        "count": 1,
+        "location": "Right side of the TrendyDesign text",
+        "description": "Text and right arrow image"
+      },
+      "SectionStyleThreeHmFour": {
+          "count": 1,
+          "location": "bottom of the Feature Design section",
+          "children": {   
+            "cardLists": {
+              "count": 4,
+              "location": "",
+              "description": "a card with heading and price "
+            }
+          }
+           }
+    },
+    "children_orientation_description": "heading is a text,cardLists is a card  viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,featureDesign and viewMoreTitle are arranged in a flex format"
+      },
+  
+  "ProductsAds": {
+      "count": 1,
+      "location": "bottom of the SectionStyleThreeHmFour",    
+      "description": "Image with full width "
+        },
+        "newArrivalSection": {
+          "count": 1,
+          "location": "bottom of the serviceCard",
+          "children": {   
+            "newArrival": {
+              "count": 1,
+              "location": "left side in the newArrival section",
+              "description": "Heading"
+            },
+            "viewMoreTitle": {
+              "count": 1,
+              "location": "Right side of the TrendyDesign text",
+              "description": "Text and right arrow image"
+            },
+            "SectionStyleOneHmFour": {
+              "count": 1,
+              "location": "bottom of the new arrival",
+              "children": {   
+                "cardLists": {
+                  "count": 12,
+                  "location": "",
+                  "description": "a card with heading and price "
+                }
+              }
+               }
+          },
+          "children_orientation_description": "heading is a text, card lists is a card, viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,newArrival and viewMoreTitle are arranged in a flex format"        
+       },
+    
+    
+    "ProductsAdsone": {
+      "count": 1,
+      "location": "bottom of the new arrival section",    
+      "description": "Image with full width "
+        },
+
+        "popularSalesSection": {
+          "count": 1,
+          "location": "bottom of the ProductAds card",
+          "children": {   
+            "popularSales": {
+              "count": 1,
+              "location": "left side in the popularSales section",
+              "description": "Heading"
+            },
+            "viewMoreTitle": {
+              "count": 1,
+              "location": "Right side of the popularSales text",
+              "description": "Text and right arrow image"
+            },
+            "ProductCardRowStyleTwo": {
+              "count": 1,
+              "location": "bottom of the new arrival",
+              "children": {   
+                "cardLists": {
+                  "count": 12,
+                  "location": "",
+                  "description": "a card with heading and price "
+                }
+              }
+               }
+          },
+          "children_orientation_description": "heading is a text,cardLists is card, viewMoreTitle is a text with image  -- ProductCardRowStyleTwo arranged in Grid format,popularSales and viewMoreTitle are arranged in a flex format"
+      },
+      "discountbanner": {
+          "count": 1,
+          "location": "below the popular sales",
+          "description": "a ads image with gmail address get the coupon button"
+        },
+        "footer":{
+          "count":1,
+          "location":"bottom of the page and below DiscountBanner",
+          "children":{
+              "footerLogo":{
+                  "count":1,
+                  "location":"below of AllProductsPage",
+                  "description":"it is a logo of website"
+              },
+              "footerItemsContainer":{
+                  "count":1,
+                  "location":"below footerLogo",
+                  "children":{
+                      "footerItem":{
+                          "count":4,
+                          "location":"Inside footerItemsContainer from left to right",
+                          "description":"it is a flex item"
+                      }
+                  },
+                  "description":"which has flex containers",
+                  "children_orientation_description":"footerItem is a flex container"
+              },
+              "footerBottom":{
+                  "count":1,
+                  "location":"bottom last of the page",
+                  "children":{
+                      "footerIconsContainer":{
+                          "count":1,
+                          "location":"left side in footerBottom",
+                          "description":"it is a flex container contains icons and text"
+                      },
+                      "footerImagesContainer":{
+                          "count":1,
+                          "location":"right side in footerBottom",
+                          "description":"it is a flex container contains images"
+                      }
+                  },
+                  "description":"contains flex containers",
+                  "children_orientation_description":"(footerIconsContainer,footerImagesContainer)--all are flex containers"
+              }
+          },
+          "description":"last bottom of the page which contains logo and links and icons",
+          "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
+        }
+          },
+  "functionality": {},
+  "sizing_updates": [],
+  "screen_and_layout_augmentations": ["Added 4 Cards to the SectionStyleThreeHmFour"]
+}

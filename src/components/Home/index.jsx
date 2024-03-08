@@ -1,7 +1,6 @@
 import LayoutHomeFour from '../LayoutHomeFour'
 import BrandSection from "../Home/BrandSection";
 import ProductsAds from "../Home/ProductsAds";
-import Banner from "./Banner";
 import SectionStyleOneHmFour from '../SectionStyleOneHmFour'
 import datas from "../../mock_data/products.json";
 import CampaignCountDown from "./CampaignCountDown";
@@ -12,7 +11,6 @@ function Index() {
   const { products } = datas;
   return (
     <LayoutHomeFour>
-      <Banner className="mb-[60px]" />
       <SectionStyleOneHmFour
         products={products.slice(16, 20)}
         sectionTitle="Trendy Design"
