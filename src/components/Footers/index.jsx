@@ -1,5 +1,4 @@
 import Star from "../icons/Star";
-import logo from '../../assets/images/logo-4.svg'
 
 export default function Footer({ type }) {
   const footerCategory = [
@@ -21,23 +20,7 @@ export default function Footer({ type }) {
     <footer className="footer-section-wrapper bg-white print:hidden">
       <div className="container-x block mx-auto pt-[56px]">
         <div className="w-full flex flex-col items-center mb-[30px]">
-          <div className="mb-[40px]">
-            {type === 3 ? (
-                <img
-                  width="152"
-                  height="36"
-                  src={logo}
-                  alt="logo"
-                />
-            ) : (
-                <img
-                  width="152"
-                  height="36"
-                  src={logo}
-                  alt="logo"
-                />
-            )}
-          </div>
+        
           <div className="w-full h-[1px] bg-[#E9E9E9]"></div>
         </div>
         <div className="lg:flex justify-between mb-[30px]">
