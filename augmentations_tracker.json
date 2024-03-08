@@ -178,18 +178,7 @@ Augmentation ---
               "count": 3,
               "location": "Bottom of the Navbar",
               "description": "List of cards"
-              },
-              "serviceCard": {
-                  "count": 1,
-                  "location": "Bottom of the CardList",
-                  "description": "List of flex items"
-                  },"children": {
-                      "bannerData": {
-                      "count": 4,
-                      "location": "Inside service card",
-                      "description": "Heading and Description"
-                      }
-                  }
+              }
       }
     }
   },

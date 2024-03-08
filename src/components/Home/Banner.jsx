@@ -1,24 +1,7 @@
 import Star from '../icons/Star'
 export default function Banner({ className }) {
 
-  const bannerData = [
-    {
-    heading : "Free shipping",
-    desc : "When ordering over $100"
-    },
-    {
-    heading : "Free Return",
-    desc : "Get Return within 30 days"
-    },
-    {
-    heading : "Secure Payment",
-    desc : "100% Secure Online Payment"
-    },
-    {
-    heading : "Best Quality",
-    desc : "Original Product Guarenteed"
-    }
-    ] 
+  
   return (
     <>
       <div className={`w-full ${className || ""}`}>
@@ -47,37 +30,7 @@ export default function Banner({ className }) {
               </div>
               ))}
             </div>
-            <div
-              data-aos="fade-up"
-              style={{
-                backgroundImage: `url(${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/src/assets/images/service-bg.png)`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-              }}
-              className="best-services w-full flex flex-col space-y-10 lg:space-y-0 lg:flex-row lg:justify-between lg:items-center lg:h-[110px] px-10 lg:py-0 py-10"
-            >
-              {bannerData.map((each)=>(
-              <div key={each.heading} className="item">
-                <div className="flex space-x-5 items-center">
-                  <div>
-                    <span>
-                      <Star />
-                    </span>
-                  </div>
-                  <div>
-                    <p className="text-white text-[15px] font-700 tracking-wide mb-1">
-                      {each.heading}
-                    </p>
-                    <p className="text-sm text-qgray text-white">
-                     {each.desc}
-                    </p>
-                  </div>
-                </div>
-              </div>))}
             </div>
-          </div>
         </div>
       </div>
     </>
