@@ -99,16 +99,6 @@ export default function Footer({ type }) {
               All rights reserved
             </span>
           </div>
-          <div className="">
-              <img
-                width="318"
-                height="28"
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/src/assets/images/payment-getways.png`}
-                alt="payment-getways"
-              />
-          </div>
         </div>
       </div>
     </footer>
