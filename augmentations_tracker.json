@@ -374,7 +374,7 @@ Augmentation ---
                       "footerIconsContainer":{
                           "count":1,
                           "location":"left side in footerBottom",
-                          "description":"it is a flex container contains icons and text"
+                          "description":"it is a flex container contain icons"
                       },
                       "footerImagesContainer":{
                           "count":1,
@@ -392,5 +392,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": ["Added 4 Cards to the SectionStyleThreeHmFour"]
+  "screen_and_layout_augmentations": ["Removed text from footerIconsContainer"]
 }
