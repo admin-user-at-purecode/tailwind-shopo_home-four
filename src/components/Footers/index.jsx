@@ -3,10 +3,7 @@ import logo from '../../assets/images/logo-4.svg'
 
 export default function Footer({ type }) {
   const footerCategory = [
-    {
-    menu : "Feature",
-    sub : ["About Us" , "Teams & Condition", "Best Products"]
-    },
+    
     {
     menu: "General as",
     sub: ["Blog", "Tracking Order", "Become Seller"  ]
