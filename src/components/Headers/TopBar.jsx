@@ -10,28 +10,9 @@ export default function TopBar({ className }) {
         }`}
       >
         <div className="container-x mx-auto h-full">
-          <div className="flex justify-between items-center h-full">
-            <div className="topbar-nav">
-              <ul className="flex space-x-6">
-                <li>
-                    <span className="text-xs leading-6 text-qblack font-500">
-                      Account
-                    </span>
-                </li>
-                <li>
-                    <span className="text-xs leading-6 text-qblack font-500">
-                      Track Order
-                    </span>
-                </li>
-                <li>
-                    <span className="text-xs leading-6 text-qblack font-500">
-                      Support
-                    </span>
-                </li>
-              </ul>
-            </div>
-            <div className="topbar-dropdowns sm:block hidden">
-              <div className="flex space-x-6">
+          <div className="flex justify-end items-center h-full">
+            <div className="topbar-dropdowns   sm:block hidden">
+              <div className="flex  space-x-6">
                 <div className="country-select flex space-x-1 items-center">
                   <div>
                     <img
