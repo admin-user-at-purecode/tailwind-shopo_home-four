@@ -8,10 +8,6 @@ export default function Footer({ type }) {
     sub : ["About Us" , "Teams & Condition", "Best Products"]
     },
     {
-    menu: "General as",
-    sub: ["Blog", "Tracking Order", "Become Seller"  ]
-    },
-    {
     menu: "Helpful",
     sub: ["Flash Sale" , "FAQ", "Support" ]
     }
@@ -41,13 +37,7 @@ export default function Footer({ type }) {
           <div className="w-full h-[1px] bg-[#E9E9E9]"></div>
         </div>
         <div className="lg:flex justify-between mb-[30px]">
-          <div className="lg:w-[424px]  ml-0 w-full mb-10 lg:mb-0">
-            <h1 className="text-[18px] font-600 text-[#2F2F2F] mb-5">About Us</h1>
-            <p className="text-[#9A9A9A] text-[15px] w-[247px] leading-[28px]">
-              We know there are a lot of threa developers our but we pride into
-              a firm in the industry.
-            </p>
-          </div>
+          
           <div className="flex-1 lg:flex">
               {
                 footerCategory.map((each) => (
