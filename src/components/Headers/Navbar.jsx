@@ -133,7 +133,7 @@ export default function Navbar ({ className, type }) {
                         <Star className="fill-current" />
                       </span>
                     </span>
-                    <div className="sub-menu w-full absolute left-0 top-[60px]">
+                    {/* <div className="sub-menu w-full absolute left-0 top-[60px]">
                       <div className="mega-menu-wrapper w-full bg-white p-[30px] flex justify-between items-center " style={{minHeight: "295px", boxShadow: "0px 15px 50px 0px rgba(0, 0, 0, 0.14)"}}>
                         <div className="categories-wrapper flex-1 h-full flex justify-around -ml-[70px]">
                           {[
@@ -178,7 +178,7 @@ export default function Navbar ({ className, type }) {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </li>
                   <li className="relative">
                     <span
