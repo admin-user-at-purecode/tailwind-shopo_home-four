@@ -44,10 +44,10 @@ export default function TopBar({ className }) {
                       className="overflow-hidden rounded-full"
                     />
                   </div>
-                  <Selectbox
+                  <span
                     className="w-fit"
-                    datas={["United State", "Bangladesh", "India"]}
-                  />
+                  > United State
+                  </span>
                   <div>
                     <Arrow className="fill-current qblack" />
                   </div>
