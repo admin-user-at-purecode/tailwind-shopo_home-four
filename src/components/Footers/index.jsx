@@ -86,18 +86,6 @@ export default function Footer({ type }) {
                 <Star className="fill-current text-qgray hover:text-qblack" />
               </a>
             </div>
-            <span className="sm:text-base text-[10px] text-qgray font-400">
-              ©2022
-              <a
-                href="https://quomodosoft.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="font-500 text-qblack mx-1"
-              >
-                Quomodosoft
-              </a>
-              All rights reserved
-            </span>
           </div>
           <div className="">
               <img
