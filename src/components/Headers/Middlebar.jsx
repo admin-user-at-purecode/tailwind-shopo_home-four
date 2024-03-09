@@ -17,9 +17,9 @@ export default function Middlebar({ className }) {
                   alt="logo"
                 />
             </div>
-            <div className="w-[517px] h-[44px]">
+            {/* <div className="w-[517px] h-[44px]">
               <SearchBox className="search-com" />
-            </div>
+            </div> */}
             <div className="flex space-x-6 items-center">
               <div className="compaire relative">
                   <span>
