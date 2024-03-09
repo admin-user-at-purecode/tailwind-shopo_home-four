@@ -49,14 +49,10 @@ Augmentation ---
       "count": 1,
       "location": "bottom of the topbar",
       "children": {
-        "Logo": {
-          "count": 1,
-          "location": "Left side in the middlebar",
-          "description": "A logo"
-        },
+        
       "searchbox": {
         "count": 1,
-        "location": "Center in the middlebar",
+        "location": "left side in the middlebar",
         "description": "A searchbox, selectbox with search button"
       },
       "ProfileButtons": {
@@ -392,5 +388,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": ["Added 4 Cards to the SectionStyleThreeHmFour"]
+  "screen_and_layout_augmentations": ["Removed Logo from middleBar"]
 }

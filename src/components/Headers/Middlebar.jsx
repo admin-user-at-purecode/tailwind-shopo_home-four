@@ -7,16 +7,7 @@ export default function Middlebar({ className }) {
       <div className="container-x mx-auto h-full">
         <div className="relative h-full">
           <div className="flex justify-between items-center h-full">
-            <div>
-                <img
-                  width="152"
-                  height="36"
-                  src={`${
-                    import.meta.env.VITE_PUBLIC_URL
-                  }/src/assets/images/logo-4.svg`}
-                  alt="logo"
-                />
-            </div>
+           
             <div className="w-[517px] h-[44px]">
               <SearchBox className="search-com" />
             </div>
