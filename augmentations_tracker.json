@@ -156,11 +156,7 @@ Augmentation ---
           "location": "right side of the AllCategories",
           "description": "list of texts with flex container"
         },
-        "becomeSellerButton": {
-          "count": 1,
-          "location": "right corner in the Navbar",
-          "description": "flex container with text (Become a Sellar) "
-        }
+        
       },
       "children_orientation_description": "CategoriesLists, list of texts(HomePage, Shop, Pages, About, Blog,contact) Container --  all arranged in a flex format "
     },
@@ -392,5 +388,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": ["Added 4 Cards to the SectionStyleThreeHmFour"]
+  "screen_and_layout_augmentations": ["Removed becomeSellerButton from navbar"]
 }
