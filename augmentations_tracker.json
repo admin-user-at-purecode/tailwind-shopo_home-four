@@ -390,7 +390,8 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
+  "functionality": {"Removed the third select box which is located at the right corner, inside the Topbar component"
+},
   "sizing_updates": [],
   "screen_and_layout_augmentations": []
 }
