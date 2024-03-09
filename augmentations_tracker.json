@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
+  "functionality": {"Removed the second select box which is located at the right corner, inside the Topbar component"},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": ["Added 4 Cards to the SectionStyleThreeHmFour"]
+  "screen_and_layout_augmentations": []
 }
