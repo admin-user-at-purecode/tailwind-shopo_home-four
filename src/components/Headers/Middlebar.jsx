@@ -21,14 +21,7 @@ export default function Middlebar({ className }) {
               <SearchBox className="search-com" />
             </div>
             <div className="flex space-x-6 items-center">
-              <div className="compaire relative">
-                  <span>
-                    <Star />
-                  </span>
-                <span className="w-[18px] h-[18px] rounded-full bg-qh4-pink absolute -top-2.5 -right-2.5 flex justify-center items-center text-[9px] text-qblack">
-                  2
-                </span>
-              </div>
+             
               <div className="favorite relative">
                   <span>
                     <Star />
