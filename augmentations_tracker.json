@@ -152,7 +152,7 @@ Augmentation ---
           "description": "categoriesLists"
         },
         "nav-wrapper": {
-          "count": 6,
+          "count": 5,
           "location": "right side of the AllCategories",
           "description": "list of texts with flex container"
         },
@@ -392,5 +392,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": ["Added 4 Cards to the SectionStyleThreeHmFour"]
+  "screen_and_layout_augmentations": ["Removed shop menu from nav-wrapper"]
 }

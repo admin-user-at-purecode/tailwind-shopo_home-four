@@ -122,64 +122,6 @@ export default function Navbar ({ className, type }) {
                       </div>
                     </div>
                   </li>
-                  <li>
-                    <span
-                      className={`flex items-center text-sm font-600 cursor-pointer ${
-                        type === 3 ? "text-white" : "text-qblacktext"
-                      }`}
-                    >
-                      <span>Shop</span>
-                      <span className="ml-1.5 ">
-                        <Star className="fill-current" />
-                      </span>
-                    </span>
-                    <div className="sub-menu w-full absolute left-0 top-[60px]">
-                      <div className="mega-menu-wrapper w-full bg-white p-[30px] flex justify-between items-center " style={{minHeight: "295px", boxShadow: "0px 15px 50px 0px rgba(0, 0, 0, 0.14)"}}>
-                        <div className="categories-wrapper flex-1 h-full flex justify-around -ml-[70px]">
-                          {[
-                            {  label: "Shop List", items: ["Shop Sidebar", "Shop Fullwidth", "Shop Category Icon", "Shop Category Icon", "Shop List View"] },
-                            {  label: "Product Layouts", items: ["Horizonral Thumbnail", "Vertical Thumbnail", "Gallery Thumbnail", "Sticky Summary"] },
-                            { label: "Popular Category", items: ["Phone & Tablet", "Gaming & Sports", "Home Appliance", "Fashion Clothes"] },
-                          ].map((menuGroup) => (
-                            <div key={menuGroup.label}>
-                              <div className="category">
-                                <h1 className="text-[13px] font-700 text-qblack uppercase mb-[13px]">{menuGroup.label}</h1>
-                              </div>
-                              <div className="category-items">
-                                <ul className="flex flex-col space-y-2">
-                                  {menuGroup.items.map((menuItem, index) => (
-                                    <li key={index}>
-                                      <a to="">
-                                        <span
-                                          className={`text-qgray text-sm font-400 border-b border-transparent ${
-                                            type === 3
-                                              ? "hover:text-qh3-blue hover:border-qh3-blue"
-                                              : "hover:text-qyellow hover:border-qyellow"
-                                          }`}
-                                        >
-                                          {menuItem}
-                                        </span>
-                                      </a>
-                                    </li>
-                                  ))}
-                                </ul>
-                              </div>
-                            </div>
-                          ))}
-                        </div>
-                        <div className="thumbnil w-[348px] h-full">
-                          <div className="w-full h-[235px]">
-                            <img
-                              width=""
-                              src={`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/mega-menu-thumb.jpg`}
-                              alt=""
-                              className="w-full h-full object-contain"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
                   <li className="relative">
                     <span
                       className={`flex items-center text-sm font-600 cursor-pointer ${
