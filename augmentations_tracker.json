@@ -146,14 +146,10 @@ Augmentation ---
       "count": 1,
       "location": "bottom of the Middlebar",
       "children": {
-        "AllCategories": {
-          "count": 1,
-          "location": "left side in the Navbar",
-          "description": "categoriesLists"
-        },
+        
         "nav-wrapper": {
           "count": 6,
-          "location": "right side of the AllCategories",
+          "location": "Left side NavBar",
           "description": "list of texts with flex container"
         },
         "becomeSellerButton": {
@@ -162,7 +158,7 @@ Augmentation ---
           "description": "flex container with text (Become a Sellar) "
         }
       },
-      "children_orientation_description": "CategoriesLists, list of texts(HomePage, Shop, Pages, About, Blog,contact) Container --  all arranged in a flex format "
+      "children_orientation_description": "list of texts(HomePage, Shop, Pages, About, Blog,contact) Container --  all arranged in a flex format "
     },
     "home": {
   "count": 1,
@@ -392,5 +388,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": ["Added 4 Cards to the SectionStyleThreeHmFour"]
+  "screen_and_layout_augmentations": ["Removed AllCategories from navbar"]
 }
