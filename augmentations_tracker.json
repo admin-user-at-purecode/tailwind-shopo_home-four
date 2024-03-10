@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
+  "functionality": {"Removed the Select select box (Pages) which is located at the right side of the all categories, inside the Navbar component"},
   "sizing_updates": [],
   "screen_and_layout_augmentations": []
 }
