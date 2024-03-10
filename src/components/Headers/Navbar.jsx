@@ -36,11 +36,11 @@ export default function Navbar ({ className, type }) {
         className || ""
       }`}
     >
-    <div className="container-x mx-auto h-full">
+    <div className="container-x mx-auto">
         <div className="w-full h-full relative">
           <div className="w-full h-full flex justify-between items-center">
             <div className="category-and-nav flex xl:space-x-7 space-x-3 items-center w-full justify-between">
-              <div className="category w-[270px] h-[53px] bg-white px-5 rounded-t-md relative">
+              <div className="category w-[300px] h-[53px] bg-white px-5 rounded-t-md relative">
                 <button onClick={toggleHandler} type="button" className="w-full h-full flex justify-between items-center">
                   <div className="flex space-x-3 items-center">
                     <Star />

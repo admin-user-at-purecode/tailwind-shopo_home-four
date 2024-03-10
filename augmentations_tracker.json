@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
+  "functionality": {"Changed this styles in Navbar section (category w-[300px] h-[53px] bg-white px-5 rounded-t-md relative)"},
   "sizing_updates": [],
   "screen_and_layout_augmentations": []
 }
