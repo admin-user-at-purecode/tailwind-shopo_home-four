@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {"Changed the styles in the Feature Design section  (grid lg:grid-cols-6 sm:grid-cols-4 gap-2 grid-cols-2)"},
+  "functionality": {"Changed the styles in the Feature Brandsection  (grid lg:grid-cols-6 sm:grid-cols-4 gap-2 grid-cols-2)"},
   "sizing_updates": [],
   "screen_and_layout_augmentations": []
 }
