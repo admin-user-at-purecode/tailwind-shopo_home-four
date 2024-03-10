@@ -1,4 +1,3 @@
-import Cart from '../Cart'
 import Star from '../icons/Star'
 import SearchBox from '../SearchBox'
 export default function Middlebar({ className }) {
@@ -46,8 +45,7 @@ export default function Middlebar({ className }) {
                     15
                   </span>
                 </div>
-                <Cart className="absolute -right-[45px] top-11 z-50 hidden group-hover:block" />
-              </div>
+                </div>
               <div>
                   <span>
                     <Star />
