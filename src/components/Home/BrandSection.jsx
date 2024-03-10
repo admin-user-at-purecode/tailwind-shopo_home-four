@@ -1,4 +1,5 @@
 export default function BrandSection({ className, sectionTitle }) {
+  const commonStyles = "w-full h-[180px] bg-white border border-primarygray flex justify-center items-center"
   return (
     <div data-aos="fade-up" className={`w-full ${className || ""}`}>
       <div className="container-x mx-auto">
@@ -11,7 +12,7 @@ export default function BrandSection({ className, sectionTitle }) {
         </div>
         <div className="grid lg:grid-cols-6 sm:grid-cols-4 grid-cols-2">
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
@@ -21,7 +22,7 @@ export default function BrandSection({ className, sectionTitle }) {
             </div>
           </div>
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
@@ -31,7 +32,7 @@ export default function BrandSection({ className, sectionTitle }) {
             </div>
           </div>
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
@@ -41,7 +42,7 @@ export default function BrandSection({ className, sectionTitle }) {
             </div>
           </div>
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
@@ -51,7 +52,7 @@ export default function BrandSection({ className, sectionTitle }) {
             </div>
           </div>
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
@@ -61,7 +62,7 @@ export default function BrandSection({ className, sectionTitle }) {
             </div>
           </div>
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
@@ -71,7 +72,7 @@ export default function BrandSection({ className, sectionTitle }) {
             </div>
           </div>
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
@@ -81,7 +82,7 @@ export default function BrandSection({ className, sectionTitle }) {
             </div>
           </div>
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
@@ -91,7 +92,7 @@ export default function BrandSection({ className, sectionTitle }) {
             </div>
           </div>
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
@@ -101,7 +102,7 @@ export default function BrandSection({ className, sectionTitle }) {
             </div>
           </div>
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
@@ -111,7 +112,7 @@ export default function BrandSection({ className, sectionTitle }) {
             </div>
           </div>
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
@@ -121,7 +122,7 @@ export default function BrandSection({ className, sectionTitle }) {
             </div>
           </div>
           <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
+            <div className={`${commonStyles}`}>
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
