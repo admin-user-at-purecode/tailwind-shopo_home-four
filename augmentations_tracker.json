@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
+  "functionality": {"Changed the styles in the New Arrival section  (grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 xl:gap-[15px] gap-3)"},
   "sizing_updates": [],
   "screen_and_layout_augmentations": []
 }
