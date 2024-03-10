@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
+  "functionality": {"Changed the styles in the TobBar (w-full bg-white h-10 border-b border-qgray-border)"},
   "sizing_updates": [],
   "screen_and_layout_augmentations": []
 }
