@@ -12,7 +12,7 @@ export default function SectionStyleFour({
     <div className={`section-style-one ${className || ""}`}>
       <ViewMoreTitle categoryTitle={sectionTitle} seeMoreUrl={seeMoreUrl}>
         <div className="products-section w-full">
-          <div className="grid lg:grid-cols-3 grid-cols-1 xl:gap-[30px] lg:gap-5">
+          <div className="grid lg:grid-cols-4 grid-cols-1 xl:gap-[20px] lg:gap-3">
             <div className="item-col">
               <DataIteration datas={products} startLength={0} endLength={4}>
                 {({ datas }) => (

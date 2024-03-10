@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
+  "functionality": {"Changed the styles in the Popular sales section  (grid lg:grid-cols-4 grid-cols-1 xl:gap-[20px] lg:gap-3)"},
   "sizing_updates": [],
   "screen_and_layout_augmentations": []
 }
