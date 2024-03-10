@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
+  "functionality": {"Changed this styles in banner section (item bg-[#AEE6EC] h-5/6 relative)"},
   "sizing_updates": [],
   "screen_and_layout_augmentations": []
 }
