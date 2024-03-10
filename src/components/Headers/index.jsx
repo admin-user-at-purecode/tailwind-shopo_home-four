@@ -10,7 +10,7 @@ export default function HeaderFour({ className, drawerAction }) {
       <Middlebar className="quomodo-shop-middle-bar lg:block hidden" />
       <div className="quomodo-shop-drawer lg:hidden block w-full h-[60px] bg-white">
         <div className="w-full h-full flex justify-between items-center px-5">
-          <div onClick={drawerAction}>
+          <div >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6"
