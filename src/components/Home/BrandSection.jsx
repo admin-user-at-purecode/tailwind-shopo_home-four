@@ -10,16 +10,7 @@ export default function BrandSection({ className, sectionTitle }) {
           </div>
         </div>
         <div className="grid lg:grid-cols-6 sm:grid-cols-4 grid-cols-2">
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/src/assets/images/brand-1.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
+          
           <div className="item">
             <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
               <img
