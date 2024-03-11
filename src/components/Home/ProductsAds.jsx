@@ -20,7 +20,7 @@ export default function ProductsAds({
             }  `}
           >
             <a to="/single-product">
-              <img src={ads[0]} alt="" className="w-full sm:h-full h-auto" />
+              <img src={ads[0]} alt="" className="w-5/6 sm:h-full h-auto" />
             </a>
           </div>
           {ads.length > 1 && ads.length <= 2 && (

@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
-  "sizing_updates": [],
+  "functionality": {"In the ProductsAds, Changed the width by w-5/6"},
+  "sizing_updates": ["In the ProductsAds, Changed the width by w-5/6"],
   "screen_and_layout_augmentations": []
 }
