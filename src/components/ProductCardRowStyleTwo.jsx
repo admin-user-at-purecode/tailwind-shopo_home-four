@@ -6,7 +6,7 @@ export default function ProductCardRowStyleTwo({ className, datas }) {
     >
       <div className="w-full h-[105px] bg-white border border-primarygray px-5 ">
         <div className="w-full h-full flex space-x-5 justify-center items-center">
-          <div className="w-[75px] h-[75px]">
+          <div className="w-[100px] h-[100px]">
             <img
               src={`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/${
                 datas.image

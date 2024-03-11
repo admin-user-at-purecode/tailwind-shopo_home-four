@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
-  "sizing_updates": [],
+  "functionality": {"In the Popular sales component, Change the height and width of the image from each card"},
+  "sizing_updates": ["In the Popular sales component, Change the height and width of the image from each card"],
   "screen_and_layout_augmentations": []
 }
