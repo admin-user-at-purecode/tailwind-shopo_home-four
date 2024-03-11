@@ -24,7 +24,7 @@ export default function Banner({ className }) {
       <div className={`w-full ${className || ""}`}>
         <div className="container-x mx-auto">
           <div className="main-wrapper w-full">
-            <div className="grid w-full sm:grid-cols-3 grid-cols-1 xl:gap-10 gap-5 xl:h-[600px] mb-[60px]">
+            <div className="grid w-full sm:grid-cols-3 grid-cols-1 xl:gap-10 gap-5 xl:h-[800px] mb-[60px]">
               {[1,2,3].map((each) =>(
               <div key={each} className="item bg-[#AEE6EC] h-full relative">
                 <img src="/src/assets/images/banner-4.png" alt="thumb" />

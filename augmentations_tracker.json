@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
-  "sizing_updates": [],
+  "functionality": {"In the banner component, I changed the height for large devices"},
+  "sizing_updates": ["In the banner component, I changed the height for large devices"],
   "screen_and_layout_augmentations": []
 }
