@@ -101,7 +101,7 @@ export default function Footer({ type }) {
           </div>
           <div className="">
               <img
-                width="318"
+                width="300"
                 height="28"
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
