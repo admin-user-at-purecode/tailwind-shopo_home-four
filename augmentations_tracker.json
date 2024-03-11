@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {"In the BrandSection, Changed the height h-[100px] of the each card"},
-  "sizing_updates": ["In the BrandSection, Changed the height h-[100px] of the each card"],
+  "functionality": {"In the BrandSection, Changed the height h-[101px] of the each card"},
+  "sizing_updates": ["In the BrandSection, Changed the height h-[101px] of the each card"],
   "screen_and_layout_augmentations": []
 }

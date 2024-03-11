@@ -11,7 +11,7 @@ export default function BrandSection({ className, sectionTitle }) {
         </div>
         <div className="grid lg:grid-cols-6 sm:grid-cols-4 grid-cols-2">
           <div className="item">
-            <div className="w-full h-[100px] bg-white border border-primarygray flex justify-center items-center">
+            <div className="w-full h-[101px] bg-white border border-primarygray flex justify-center items-center">
               <img
                 src={`${
                   import.meta.env.VITE_PUBLIC_URL
