@@ -146,15 +146,16 @@ Augmentation ---
       "count": 1,
       "location": "bottom of the Middlebar",
       "children": {
-        "AllCategories": {
-          "count": 1,
-          "location": "left side in the Navbar",
-          "description": "categoriesLists"
-        },
+        
         "nav-wrapper": {
           "count": 6,
-          "location": "right side of the AllCategories",
+          "location": "left side in the NavBar",
           "description": "list of texts with flex container"
+        },
+        "AllCategories": {
+          "count": 1,
+          "location": "Center in the Navbar",
+          "description": "categoriesLists"
         },
         "becomeSellerButton": {
           "count": 1,
@@ -392,5 +393,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": ["In the TopBar, Changed the Positions of countrySelections to Left side of the TopBar"]
+  "screen_and_layout_augmentations": ["In the NavBar, Changed the Positions of AllCategories to Center of the NavBar"]
 }
