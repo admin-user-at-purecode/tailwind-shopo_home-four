@@ -1,4 +1,4 @@
-Augmentation ---
+
 
 {
   "theme_augmentations": {
@@ -146,21 +146,23 @@ Augmentation ---
       "count": 1,
       "location": "bottom of the Middlebar",
       "children": {
-        "AllCategories": {
+        "becomeSellerButton": {
           "count": 1,
-          "location": "left side in the Navbar",
-          "description": "categoriesLists"
+          "location": "right corner in the Navbar",
+          "description": "flex container with text (Become a Sellar) "
         },
         "nav-wrapper": {
           "count": 6,
           "location": "right side of the AllCategories",
           "description": "list of texts with flex container"
         },
-        "becomeSellerButton": {
+        
+        "AllCategories": {
           "count": 1,
-          "location": "right corner in the Navbar",
-          "description": "flex container with text (Become a Sellar) "
+          "location": "left side in the Navbar",
+          "description": "categoriesLists"
         }
+
       },
       "children_orientation_description": "CategoriesLists, list of texts(HomePage, Shop, Pages, About, Blog,contact) Container --  all arranged in a flex format "
     },
@@ -392,5 +394,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["In the NavBar, Changed the Positions of becomeSellerButton to Left side and All Categories changed to Right side in the NavBar"]
 }

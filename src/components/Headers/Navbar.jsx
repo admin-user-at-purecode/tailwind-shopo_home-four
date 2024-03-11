@@ -40,36 +40,16 @@ export default function Navbar ({ className, type }) {
         <div className="w-full h-full relative">
           <div className="w-full h-full flex justify-between items-center">
             <div className="category-and-nav flex xl:space-x-7 space-x-3 items-center w-full justify-between">
-              <div className="category w-[270px] h-[53px] bg-white px-5 rounded-t-md relative">
-                <button onClick={toggleHandler} type="button" className="w-full h-full flex justify-between items-center">
-                  <div className="flex space-x-3 items-center">
+            <div className="become-seller-btn">
+              <a to="/become-saller">
+                <div className="becomeSellerButton black-btn w-[161px] h-[40px] flex justify-center items-center cursor-pointer">
+                  <div className="flex space-x-2 items-center">
+                    <span className="text-sm font-600">Become a Seller</span>
                     <Star />
-                    <span className="text-sm font-600 text-qblacktext">All Categories</span>
                   </div>
-                  <div>
-                    <Star width="5.78538" height="1.28564" className="fill-current text-qblacktext" />
-                  </div>
-                </button>
-                {categoryToggle && <div className="fixed top-0 left-0 w-full h-full -z-10" onClick={toggleHandler}></div>}
-                <div className="category-dropdown w-full absolute left-0 top-[53px] overflow-hidden" style={{ height: elementsSize }}>
-                  <ul className="categories-list">
-                    {categoriesList.map((category) => (
-                      <li className="category-item" key={category.id}>
-                        <a to="">
-                          
-                          <div className={`flex justify-between items-center px-5 h-10 bg-white transition-all duration-300 ease-in-out cursor-pointer text-qblack ${type === 3 ? "hover:bg-qh3-blue hover:text-white" : "hover:bg-qyellow"}`}>
-                            <div className="flex items-center space-x-6">
-                              <Star />
-                              <span className="text-xs font-400">{category.category}</span>
-                            </div>
-                            <div><Star /></div>
-                          </div>
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
                 </div>
-              </div>
+              </a>
+            </div>
               <div className="nav">
                 <ul className="nav-wrapper flex xl:space-x-10 space-x-5">
                   <li className="relative">
@@ -258,16 +238,37 @@ export default function Navbar ({ className, type }) {
                   </li>
                 </ul>
               </div>
-            <div className="become-seller-btn">
-              <a to="/become-saller">
-                <div className="becomeSellerButton black-btn w-[161px] h-[40px] flex justify-center items-center cursor-pointer">
-                  <div className="flex space-x-2 items-center">
-                    <span className="text-sm font-600">Become a Seller</span>
+            
+            <div className="category w-[270px] h-[53px] bg-white px-5 rounded-t-md relative">
+                <button onClick={toggleHandler} type="button" className="w-full h-full flex justify-between items-center">
+                  <div className="flex space-x-3 items-center">
                     <Star />
+                    <span className="text-sm font-600 text-qblacktext">All Categories</span>
                   </div>
+                  <div>
+                    <Star width="5.78538" height="1.28564" className="fill-current text-qblacktext" />
+                  </div>
+                </button>
+                {categoryToggle && <div className="fixed top-0 left-0 w-full h-full -z-10" onClick={toggleHandler}></div>}
+                <div className="category-dropdown w-full absolute left-0 top-[53px] overflow-hidden" style={{ height: elementsSize }}>
+                  <ul className="categories-list">
+                    {categoriesList.map((category) => (
+                      <li className="category-item" key={category.id}>
+                        <a to="">
+                          
+                          <div className={`flex justify-between items-center px-5 h-10 bg-white transition-all duration-300 ease-in-out cursor-pointer text-qblack ${type === 3 ? "hover:bg-qh3-blue hover:text-white" : "hover:bg-qyellow"}`}>
+                            <div className="flex items-center space-x-6">
+                              <Star />
+                              <span className="text-xs font-400">{category.category}</span>
+                            </div>
+                            <div><Star /></div>
+                          </div>
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-              </a>
-            </div>
+              </div>
             </div>
           </div>
         </div>
