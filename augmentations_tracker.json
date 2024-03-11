@@ -151,16 +151,17 @@ Augmentation ---
           "location": "left side in the Navbar",
           "description": "categoriesLists"
         },
-        "nav-wrapper": {
-          "count": 6,
-          "location": "right side of the AllCategories",
-          "description": "list of texts with flex container"
-        },
         "becomeSellerButton": {
           "count": 1,
-          "location": "right corner in the Navbar",
+          "location": "Center of the Navbar",
           "description": "flex container with text (Become a Sellar) "
+        },
+        "nav-wrapper": {
+          "count": 6,
+          "location": "left corner NavBar",
+          "description": "list of texts with flex container"
         }
+        
       },
       "children_orientation_description": "CategoriesLists, list of texts(HomePage, Shop, Pages, About, Blog,contact) Container --  all arranged in a flex format "
     },
@@ -392,5 +393,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["In the NavBar, Changed the Positions of becomeSellerButton to Center of the NavBar"]
 }

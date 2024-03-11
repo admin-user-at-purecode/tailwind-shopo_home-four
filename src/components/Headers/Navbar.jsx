@@ -70,6 +70,16 @@ export default function Navbar ({ className, type }) {
                   </ul>
                 </div>
               </div>
+              <div className="become-seller-btn">
+              <a to="/become-saller">
+                <div className="becomeSellerButton black-btn w-[161px] h-[40px] flex justify-center items-center cursor-pointer">
+                  <div className="flex space-x-2 items-center">
+                    <span className="text-sm font-600">Become a Seller</span>
+                    <Star />
+                  </div>
+                </div>
+              </a>
+            </div>
               <div className="nav">
                 <ul className="nav-wrapper flex xl:space-x-10 space-x-5">
                   <li className="relative">
@@ -258,16 +268,7 @@ export default function Navbar ({ className, type }) {
                   </li>
                 </ul>
               </div>
-            <div className="become-seller-btn">
-              <a to="/become-saller">
-                <div className="becomeSellerButton black-btn w-[161px] h-[40px] flex justify-center items-center cursor-pointer">
-                  <div className="flex space-x-2 items-center">
-                    <span className="text-sm font-600">Become a Seller</span>
-                    <Star />
-                  </div>
-                </div>
-              </a>
-            </div>
+            
             </div>
           </div>
         </div>
