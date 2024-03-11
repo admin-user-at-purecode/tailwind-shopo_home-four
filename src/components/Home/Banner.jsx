@@ -30,7 +30,7 @@ export default function Banner({ className }) {
                 <img src="/src/assets/images/banner-4.png" alt="thumb" />
                 <div className="absolute bottom-[32px] left-0 xl:w-[306px] sm:w-full w-[306px] bg-white py-6 px-[26px] bg-opacity-[0.92]">
                   <div className="mb-[15px]">
-                    <span className="px-2.5 py-[3px] bg-qblack text-white text-xs font-semibold leading-5 uppercase rounded-full">
+                    <span className="px-2.5 py-[3px] bg-qblack  text-zinc-50 text-xs font-semibold leading-5 uppercase rounded-full">
                       bOYS STUYLE
                     </span>
                   </div>
