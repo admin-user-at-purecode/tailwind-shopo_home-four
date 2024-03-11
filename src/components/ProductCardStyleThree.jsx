@@ -4,7 +4,7 @@ import Star from "../components/icons/Star";
 function ProductCardStyleThree({ datas }) {
   return (
     <div className="product-cart-three w-full group">
-      <div className="w-full h-[364px] bg-white flex justify-center items-center p-2.5 mb-6 relative overflow-hidden">
+      <div className="w-full h-[280px] bg-white flex justify-center items-center p-2.5 mb-6 relative overflow-hidden">
         <img
           src={`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/${
             datas.image

@@ -391,6 +391,6 @@ Augmentation ---
         }
           },
   "functionality": {},
-  "sizing_updates": [],
+  "sizing_updates": ["In the New Arrival section, Changed the height (h-[280px]) of the image from each card"],
   "screen_and_layout_augmentations": []
 }
