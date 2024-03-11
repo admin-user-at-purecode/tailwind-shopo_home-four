@@ -2,7 +2,7 @@ import Star from '../icons/Star'
 export default function DiscountBanner({ className }) {
   return (
     <div
-      className={`discount-banner w-full h-[307px] bg-cover  relative ${
+      className={`discount-banner w-full mr-6 ml-6 h-[300px] bg-cover  relative ${
         className || ""
       }`}
       style={{

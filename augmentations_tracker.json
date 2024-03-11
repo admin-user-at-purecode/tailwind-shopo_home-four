@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
+  "functionality": {"Changed the styles in the DiscountBanner section (discount-banner w-full mr-6 ml-6 h-[300px] bg-cover)"},
   "sizing_updates": [],
   "screen_and_layout_augmentations": []
 }
