@@ -7,6 +7,10 @@ export default function Middlebar({ className }) {
       <div className="container-x mx-auto h-full">
         <div className="relative h-full">
           <div className="flex justify-between items-center h-full">
+            
+            <div className="w-[517px] h-[44px]">
+              <SearchBox className="search-com" />
+            </div>
             <div>
                 <img
                   width="152"
@@ -16,9 +20,6 @@ export default function Middlebar({ className }) {
                   }/src/assets/images/logo-4.svg`}
                   alt="logo"
                 />
-            </div>
-            <div className="w-[517px] h-[44px]">
-              <SearchBox className="search-com" />
             </div>
             <div className="flex space-x-6 items-center">
               <div className="compaire relative">
