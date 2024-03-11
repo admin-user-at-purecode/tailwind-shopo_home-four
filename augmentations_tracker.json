@@ -230,7 +230,7 @@ Augmentation ---
       "description": "a flex container",
       "children": {
         "brandcards": {
-          "count": 12,
+          "count": 4,
           "location": "bottom of the ProductCardStyleThree",
           "description": "cards with grid container having brand images."
         }
@@ -392,5 +392,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["Removed 8 Card from Brandsection"]
 }
