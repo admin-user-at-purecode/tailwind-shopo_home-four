@@ -32,18 +32,18 @@ Augmentation ---
       "count": 1,
       "location": "top of the page",
       "children": {
-        "topbar-nav": {
-          "count": 3,
-          "location": "left side in the Tobbar",
-          "description": "List of items with flex container"
-        },
+        
         "countrySelections": {
           "count": 3,
-          "location": "right side of the list items in the Topbar",
+          "location": "Left side of the list items in the Topbar",
           "description": "List of selectboxs with country Details and Language"
+        },"topbar-nav": {
+          "count": 3,
+          "location": "Right side in the Tobbar",
+          "description": "List of items with flex container"
         }
       },
-      "children_orientation_description": "The left side text is list items and the right side is select boxes --  all arranged in a flex format "
+      "children_orientation_description": "The Right side text is list items and the left side is select boxes --  all arranged in a flex format "
     },
     "middlebar": {
       "count": 1,
@@ -392,5 +392,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["In the TopBar, Changed the Positions of countrySelections to Left side of the TopBar"]
 }
