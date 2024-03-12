@@ -12,6 +12,7 @@ function Index() {
   const { products } = datas;
   return (
     <LayoutHomeFour>
+      <BrandSection className="mb-[60px]" />
       <Banner className="mb-[60px]" />
       <SectionStyleOneHmFour
         products={products.slice(16, 20)}
@@ -19,7 +20,7 @@ function Index() {
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
       />
-      <BrandSection className="mb-[60px]" />
+      
       <CampaignCountDown lastDate="2023-10-04 4:00:00" className="mb-[60px]" />
       <SectionStyleOneHmFour
         products={products.slice(20, 24)}
