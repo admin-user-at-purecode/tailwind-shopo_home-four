@@ -354,6 +354,24 @@ Augmentation ---
                   "location":"below of AllProductsPage",
                   "description":"it is a logo of website"
               },
+              "footerBottom":{
+                "count":1,
+                "location":"bottom last of the page",
+                "children":{
+                    "footerIconsContainer":{
+                        "count":1,
+                        "location":"left side in footerBottom",
+                        "description":"it is a flex container contains icons and text"
+                    },
+                    "footerImagesContainer":{
+                        "count":1,
+                        "location":"right side in footerBottom",
+                        "description":"it is a flex container contains images"
+                    }
+                },
+                "description":"contains flex containers",
+                "children_orientation_description":"(footerIconsContainer,footerImagesContainer)--all are flex containers"
+            },
               "footerItemsContainer":{
                   "count":1,
                   "location":"below footerLogo",
@@ -367,30 +385,13 @@ Augmentation ---
                   "description":"which has flex containers",
                   "children_orientation_description":"footerItem is a flex container"
               },
-              "footerBottom":{
-                  "count":1,
-                  "location":"bottom last of the page",
-                  "children":{
-                      "footerIconsContainer":{
-                          "count":1,
-                          "location":"left side in footerBottom",
-                          "description":"it is a flex container contains icons and text"
-                      },
-                      "footerImagesContainer":{
-                          "count":1,
-                          "location":"right side in footerBottom",
-                          "description":"it is a flex container contains images"
-                      }
-                  },
-                  "description":"contains flex containers",
-                  "children_orientation_description":"(footerIconsContainer,footerImagesContainer)--all are flex containers"
-              }
+              
           },
           "description":"last bottom of the page which contains logo and links and icons",
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {"In the trendyDesignSection component, Shuffled the Text (Trendy Design and View More)"},
-  "sizing_updates": ["In the trendyDesignSection component, Shuffled the Text (Trendy Design and View More)"],
+  "functionality": {"In the Footer component, Shuffled the footerItemsContainer and footerBottom"},
+  "sizing_updates": ["In the Footer component, Shuffled the footerItemsContainer and footerBottom"],
   "screen_and_layout_augmentations": []
 }

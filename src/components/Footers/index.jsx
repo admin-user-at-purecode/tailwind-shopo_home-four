@@ -38,41 +38,7 @@ export default function Footer({ type }) {
                 />
             )}
           </div>
-          <div className="w-full h-[1px] bg-[#E9E9E9]"></div>
-        </div>
-        <div className="lg:flex justify-between mb-[30px]">
-          <div className="lg:w-[424px]  ml-0 w-full mb-10 lg:mb-0">
-            <h1 className="text-[18px] font-600 text-[#2F2F2F] mb-5">About Us</h1>
-            <p className="text-[#9A9A9A] text-[15px] w-[247px] leading-[28px]">
-              We know there are a lot of threa developers our but we pride into
-              a firm in the industry.
-            </p>
           </div>
-          <div className="flex-1 lg:flex">
-              {
-                footerCategory.map((each) => (
-                  <div key={each.menu} className="lg:w-1/3 w-full mb-10 lg:mb-0">
-              <div className="mb-5">
-                <h6 className="text-[18px] font-600 text-[#2F2F2F]">{each.menu}</h6>
-              </div>
-              <div>
-                <ul className="flex flex-col space-y-2 ">
-                  {
-                    each.sub.map((navs) => (
-                      <li key={navs}>
-                      <span className="text-[#9A9A9A] text-[15px] hover:text-qblack border-b border-transparent hover:border-qblack cursor-pointer capitalize">
-                        {navs}
-                      </span>
-                      </li>
-                    ))
-                  }
-                </ul>
-              </div>
-            </div>
-                ))
-              }
-          </div>
-        </div>
         <div className="bottom-bar border-t border-qgray-border lg:h-[82px] lg:flex justify-between items-center">
           <div className="flex lg:space-x-5 justify-between items-center mb-3">
             <div className="flex space-x-5 items-center">
@@ -110,6 +76,42 @@ export default function Footer({ type }) {
               />
           </div>
         </div>
+        <div className="w-full h-[1px] bg-[#E9E9E9]"></div>
+        
+        <div className="lg:flex justify-between mt-[60px]">
+          <div className="lg:w-[424px]  ml-0 w-full mb-10 lg:mb-0">
+            <h1 className="text-[18px] font-600 text-[#2F2F2F] mb-5">About Us</h1>
+            <p className="text-[#9A9A9A] text-[15px] w-[247px] leading-[28px]">
+              We know there are a lot of threa developers our but we pride into
+              a firm in the industry.
+            </p>
+          </div>
+          <div className="flex-1 lg:flex">
+              {
+                footerCategory.map((each) => (
+                  <div key={each.menu} className="lg:w-1/3 w-full mb-10 lg:mb-0">
+              <div className="mb-5">
+                <h6 className="text-[18px] font-600 text-[#2F2F2F]">{each.menu}</h6>
+              </div>
+              <div>
+                <ul className="flex flex-col space-y-2 ">
+                  {
+                    each.sub.map((navs) => (
+                      <li key={navs}>
+                      <span className="text-[#9A9A9A] text-[15px] hover:text-qblack border-b border-transparent hover:border-qblack cursor-pointer capitalize">
+                        {navs}
+                      </span>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </div>
+            </div>
+                ))
+              }
+          </div>
+        </div>
+        
       </div>
     </footer>
   );
