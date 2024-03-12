@@ -9,10 +9,10 @@ Augmentation ---
   },
   "component_names": [
       "topbar",
+      "navbar",
       "middlebar",
       "searchbox",
       "selectbox",
-      "navbar",
       "drawer",
       "banner",
       "trendyDesign", 
@@ -45,7 +45,30 @@ Augmentation ---
       },
       "children_orientation_description": "The left side text is list items and the right side is select boxes --  all arranged in a flex format "
     },
-    "middlebar": {
+    
+  "navbar": {
+      "count": 1,
+      "location": "bottom of the Middlebar",
+      "children": {
+        "AllCategories": {
+          "count": 1,
+          "location": "left side in the Navbar",
+          "description": "categoriesLists"
+        },
+        "nav-wrapper": {
+          "count": 6,
+          "location": "right side of the AllCategories",
+          "description": "list of texts with flex container"
+        },
+        "becomeSellerButton": {
+          "count": 1,
+          "location": "right corner in the Navbar",
+          "description": "flex container with text (Become a Sellar) "
+        }
+      },
+      "children_orientation_description": "CategoriesLists, list of texts(HomePage, Shop, Pages, About, Blog,contact) Container --  all arranged in a flex format "
+    },
+  "middlebar": {
       "count": 1,
       "location": "bottom of the topbar",
       "children": {
@@ -142,28 +165,6 @@ Augmentation ---
       }
     }
   },
-  "navbar": {
-      "count": 1,
-      "location": "bottom of the Middlebar",
-      "children": {
-        "AllCategories": {
-          "count": 1,
-          "location": "left side in the Navbar",
-          "description": "categoriesLists"
-        },
-        "nav-wrapper": {
-          "count": 6,
-          "location": "right side of the AllCategories",
-          "description": "list of texts with flex container"
-        },
-        "becomeSellerButton": {
-          "count": 1,
-          "location": "right corner in the Navbar",
-          "description": "flex container with text (Become a Sellar) "
-        }
-      },
-      "children_orientation_description": "CategoriesLists, list of texts(HomePage, Shop, Pages, About, Blog,contact) Container --  all arranged in a flex format "
-    },
     "home": {
   "count": 1,
   "location": "Bottom of the Navbar",
@@ -390,7 +391,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
-  "sizing_updates": [],
+  "functionality": {"Shaffeled the positions of MiddleBar and NavBar"},
+  "sizing_updates": ["Shaffeled the positions of MiddleBar and NavBar"],
   "screen_and_layout_augmentations": []
 }
