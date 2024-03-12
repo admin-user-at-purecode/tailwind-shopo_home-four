@@ -75,17 +75,7 @@ export default function Footer({ type }) {
         </div>
         <div className="bottom-bar border-t border-qgray-border lg:h-[82px] lg:flex justify-between items-center">
           <div className="flex lg:space-x-5 justify-between items-center mb-3">
-            <div className="flex space-x-5 items-center">
-              <a href="#">
-                <Star className="fill-current text-qgray hover:text-qblack" />
-              </a>
-              <a href="#">
-                <Star className="fill-current text-qgray hover:text-qblack" />
-              </a>
-              <a href="#">
-                <Star className="fill-current text-qgray hover:text-qblack" />
-              </a>
-            </div>
+            
             <span className="sm:text-base text-[10px] text-qgray font-400">
               ©2022
               <a
@@ -98,6 +88,17 @@ export default function Footer({ type }) {
               </a>
               All rights reserved
             </span>
+            <div className="flex space-x-5 items-center">
+              <a href="#">
+                <Star className="fill-current text-qgray hover:text-qblack" />
+              </a>
+              <a href="#">
+                <Star className="fill-current text-qgray hover:text-qblack" />
+              </a>
+              <a href="#">
+                <Star className="fill-current text-qgray hover:text-qblack" />
+              </a>
+            </div>
           </div>
           <div className="">
               <img

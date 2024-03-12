@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
-  "sizing_updates": [],
+  "functionality": {"In the Footer/footerBottom components, Shuffeld the positions of Icons and texts from footerIconsContainer"},
+  "sizing_updates": ["In the Footer/footerBottom components, Shuffeld the positions of Icons and texts from footerIconsContainer"],
   "screen_and_layout_augmentations": []
 }
