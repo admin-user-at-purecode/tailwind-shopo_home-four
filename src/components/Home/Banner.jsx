@@ -2,10 +2,7 @@ import Star from '../icons/Star'
 export default function Banner({ className }) {
 
   const bannerData = [
-    {
-    heading : "Free shipping",
-    desc : "When ordering over $100"
-    },
+   
     {
     heading : "Free Return",
     desc : "Get Return within 30 days"
@@ -14,6 +11,10 @@ export default function Banner({ className }) {
     heading : "Secure Payment",
     desc : "100% Secure Online Payment"
     },
+    {
+      heading : "Free shipping",
+      desc : "When ordering over $100"
+      },
     {
     heading : "Best Quality",
     desc : "Original Product Guarenteed"

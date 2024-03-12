@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
-  "sizing_updates": [],
+  "functionality": {"In the banner component, Changed the position of the service card list items (Free shipping)"},
+  "sizing_updates": ["In the banner component, Changed the position of the service card list items (Free shipping)"],
   "screen_and_layout_augmentations": []
 }
