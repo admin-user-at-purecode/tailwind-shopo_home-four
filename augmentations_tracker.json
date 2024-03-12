@@ -174,14 +174,10 @@ Augmentation ---
           "description": "List of Grids, Occupied full width"
           
           "children": {
-              "Cardlist": {
-              "count": 3,
-              "location": "Bottom of the Navbar",
-              "description": "List of cards"
-              },
+              
               "serviceCard": {
                   "count": 1,
-                  "location": "Bottom of the CardList",
+                  "location": "Bottom of the Navbar",
                   "description": "List of flex items"
                   },"children": {
                       "bannerData": {
@@ -189,6 +185,11 @@ Augmentation ---
                       "location": "Inside service card",
                       "description": "Heading and Description"
                       }
+                  "Cardlist": {
+                    "count": 3,
+                    "location": "Bottom of the CardList",
+                    "description": "List of cards"
+                    },
                   }
       }
     }
@@ -390,7 +391,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
-  "sizing_updates": [],
+  "functionality": {"In the Banner component, shuffled the positions of ServiceCrads and cards list"},
+  "sizing_updates": ["In the Banner component, shuffled the positions of ServiceCrads and cards list "],
   "screen_and_layout_augmentations": []
 }
