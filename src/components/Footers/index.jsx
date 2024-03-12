@@ -21,23 +21,7 @@ export default function Footer({ type }) {
     <footer className="footer-section-wrapper bg-white print:hidden">
       <div className="container-x block mx-auto pt-[56px]">
         <div className="w-full flex flex-col items-center mb-[30px]">
-          <div className="mb-[40px]">
-            {type === 3 ? (
-                <img
-                  width="152"
-                  height="36"
-                  src={logo}
-                  alt="logo"
-                />
-            ) : (
-                <img
-                  width="152"
-                  height="36"
-                  src={logo}
-                  alt="logo"
-                />
-            )}
-          </div>
+          
           <div className="w-full h-[1px] bg-[#E9E9E9]"></div>
         </div>
         <div className="lg:flex justify-between mb-[30px]">
@@ -73,6 +57,23 @@ export default function Footer({ type }) {
               }
           </div>
         </div>
+        <div className="flex align-center justify-center mb-[40px]">
+            {type === 3 ? (
+                <img
+                  width="152"
+                  height="36"
+                  src={logo}
+                  alt="logo"
+                />
+            ) : (
+                <img
+                  width="152"
+                  height="36"
+                  src={logo}
+                  alt="logo"
+                />
+            )}
+          </div>
         <div className="bottom-bar border-t border-qgray-border lg:h-[82px] lg:flex justify-between items-center">
           <div className="flex lg:space-x-5 justify-between items-center mb-3">
             <div className="flex space-x-5 items-center">

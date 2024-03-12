@@ -349,11 +349,7 @@ Augmentation ---
           "count":1,
           "location":"bottom of the page and below DiscountBanner",
           "children":{
-              "footerLogo":{
-                  "count":1,
-                  "location":"below of AllProductsPage",
-                  "description":"it is a logo of website"
-              },
+              
               "footerItemsContainer":{
                   "count":1,
                   "location":"below footerLogo",
@@ -367,6 +363,11 @@ Augmentation ---
                   "description":"which has flex containers",
                   "children_orientation_description":"footerItem is a flex container"
               },
+              "footerLogo":{
+                "count":1,
+                "location":"below of AllProductsPage",
+                "description":"it is a logo of website"
+            },
               "footerBottom":{
                   "count":1,
                   "location":"bottom last of the page",
@@ -390,7 +391,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {"In the trendyDesignSection component, Shuffled the Text (Trendy Design and View More)"},
-  "sizing_updates": ["In the trendyDesignSection component, Shuffled the Text (Trendy Design and View More)"],
+  "functionality": {"In the Footer component, Shuffled the footerLogo and footerItemsContainer"},
+  "sizing_updates": ["In the Footer component, Shuffled the footerLogo and footerItemsContainer"],
   "screen_and_layout_augmentations": []
 }
