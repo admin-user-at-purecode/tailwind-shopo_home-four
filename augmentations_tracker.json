@@ -15,13 +15,13 @@ Augmentation ---
       "navbar",
       "drawer",
       "banner",
+      "productsAds",
       "trendyDesign", 
       "brandsection",
       "countdown",
       "featureDesign",
       "productsAds",
       "newArrival",
-      "productsAds",
       "popularSales",
       "DiscountBanner",
       "footer"
@@ -194,7 +194,11 @@ Augmentation ---
     }
   },
   "children_orientation_description": "List of grids, cards,  --  all arranged in a flex format "
-  },
+  },"ProductsAdsone": {
+    "count": 1,
+    "location": "",    
+    "description": "Image with full width "
+      },
   "trendyDesignSection": {
       "count": 1,
       "location": "bottom of the serviceCard",
@@ -305,16 +309,10 @@ Augmentation ---
           "children_orientation_description": "heading is a text, card lists is a card, viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,newArrival and viewMoreTitle are arranged in a flex format"        
        },
     
-    
-    "ProductsAdsone": {
-      "count": 1,
-      "location": "bottom of the new arrival section",    
-      "description": "Image with full width "
-        },
 
         "popularSalesSection": {
           "count": 1,
-          "location": "bottom of the ProductAds card",
+          "location": "bottom of the new arrival section",
           "children": {   
             "popularSales": {
               "count": 1,
@@ -390,7 +388,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
-  "sizing_updates": [],
+  "functionality": {"Moved the ProductsAds component to bottom of the Banner Component"},
+  "sizing_updates": ["Moved the ProductsAds component to bottom of the Banner Component"],
   "screen_and_layout_augmentations": []
 }

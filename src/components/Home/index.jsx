@@ -13,6 +13,11 @@ function Index() {
   return (
     <LayoutHomeFour>
       <Banner className="mb-[60px]" />
+      <ProductsAds
+        sectionHeight="164"
+        ads={[`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-4.png`]}
+        className="products-ads-section mb-[60px]"
+      />
       <SectionStyleOneHmFour
         products={products.slice(16, 20)}
         sectionTitle="Trendy Design"
@@ -38,11 +43,7 @@ function Index() {
         className="mb-[60px]"
       />
 
-      <ProductsAds
-        sectionHeight="164"
-        ads={[`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-4.png`]}
-        className="products-ads-section mb-[60px]"
-      />
+      
       <SectionStyleFour
         products={products.slice(16, 28)}
         sectionTitle="Popular Sales"
