@@ -201,12 +201,12 @@ Augmentation ---
       "children": {   
         "trendyDesign": {
           "count": 1,
-          "location": "left side in the trendyDesign section",
+          "location": "Right side in the trendyDesign section",
           "description": "Heading"
         },
         "viewMoreTitle": {
           "count": 1,
-          "location": "Right side of the TrendyDesign text",
+          "location": "Left side of the TrendyDesign text",
           "description": "Text and right arrow image"
         },
         
@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
-  "sizing_updates": [],
+  "functionality": {"In the trendyDesignSection component, Shuffled the Text (Trendy Design and View More)"},
+  "sizing_updates": ["In the trendyDesignSection component, Shuffled the Text (Trendy Design and View More)"],
   "screen_and_layout_augmentations": []
 }
