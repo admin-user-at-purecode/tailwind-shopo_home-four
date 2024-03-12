@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
-  "sizing_updates": [],
+  "functionality": {"In the BrandSection component, Shuffeld the brandcards postion"},
+  "sizing_updates": ["In the BrandSection component, Shuffeld the brandcards postion"]],
   "screen_and_layout_augmentations": []
 }
