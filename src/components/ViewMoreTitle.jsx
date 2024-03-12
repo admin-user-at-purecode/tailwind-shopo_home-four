@@ -7,8 +7,15 @@ export default function ViewMoreTitle({
   return (
     <div className={`section-wrapper w-full ${className || ""}`}>
       <div className="container-x mx-auto">
+      
         <div className=" section-title flex justify-between items-center mb-5">
-        <div>
+        
+          <div>
+            <h1 className="sm:text-3xl text-xl font-600 text-qblacktext leading-none">
+              {categoryTitle}
+            </h1>
+          </div>
+          <div>
             <a to={seeMoreUrl}>
               <div className="flex space-x-2 items-center">
                 <p className="text-base font-600 text-qblack">View More</p>
@@ -33,14 +40,10 @@ export default function ViewMoreTitle({
               </div>
             </a>
           </div>
-          <div>
-            <h1 className="sm:text-3xl text-xl font-600 text-qblacktext leading-none">
-              {categoryTitle}
-            </h1>
-          </div>
-          
         </div>
+        
         <div className="section-content">{children && children}</div>
+      
       </div>
     </div>
   );
