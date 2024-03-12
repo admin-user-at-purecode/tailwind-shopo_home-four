@@ -391,7 +391,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {"Moved the Brand section to the Bottom of the newArrivalSection"},
-  "sizing_updates": ["Moved the Brand section to the Bottom of the newArrivalSection"],
+  "functionality": {"In Popular sales Component, Shuffeld the positions of the cardList"},
+  "sizing_updates": ["In Popular sales Component, Shuffeld the positions of the cardList"],
   "screen_and_layout_augmentations": []
 }
