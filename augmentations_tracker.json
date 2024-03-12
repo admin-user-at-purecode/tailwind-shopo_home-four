@@ -14,7 +14,6 @@ Augmentation ---
       "selectbox",
       "navbar",
       "drawer",
-      "banner",
       "trendyDesign", 
       "brandsection",
       "countdown",
@@ -23,6 +22,7 @@ Augmentation ---
       "newArrival",
       "productsAds",
       "popularSales",
+      "banner",
       "DiscountBanner",
       "footer"
   ],
@@ -164,40 +164,10 @@ Augmentation ---
       },
       "children_orientation_description": "CategoriesLists, list of texts(HomePage, Shop, Pages, About, Blog,contact) Container --  all arranged in a flex format "
     },
-    "home": {
-  "count": 1,
-  "location": "Bottom of the Navbar",
-  "children": {
-          "banner": {
-          "count": 1,
-          "location": "Bottom of the Navbar",
-          "description": "List of Grids, Occupied full width"
-          
-          "children": {
-              "Cardlist": {
-              "count": 3,
-              "location": "Bottom of the Navbar",
-              "description": "List of cards"
-              },
-              "serviceCard": {
-                  "count": 1,
-                  "location": "Bottom of the CardList",
-                  "description": "List of flex items"
-                  },"children": {
-                      "bannerData": {
-                      "count": 4,
-                      "location": "Inside service card",
-                      "description": "Heading and Description"
-                      }
-                  }
-      }
-    }
-  },
-  "children_orientation_description": "List of grids, cards,  --  all arranged in a flex format "
-  },
+    
   "trendyDesignSection": {
       "count": 1,
-      "location": "bottom of the serviceCard",
+      "location": "bottom of the NavBar",
       "children": {   
         "trendyDesign": {
           "count": 1,
@@ -340,6 +310,41 @@ Augmentation ---
           },
           "children_orientation_description": "heading is a text,cardLists is card, viewMoreTitle is a text with image  -- ProductCardRowStyleTwo arranged in Grid format,popularSales and viewMoreTitle are arranged in a flex format"
       },
+      
+
+  "home": {
+  "count": 1,
+  "location": "Bottom of the popularSalesSection",
+  "children": {
+    "banner": {
+        "count": 1,
+        "location": "Bottom of the popularSalesSection",
+        "description": "List of Grids, Occupied full width"
+        
+        "children": {
+            "Cardlist": {
+            "count": 3,
+            "location": "Bottom of the Navbar",
+            "description": "List of cards"
+            },
+            "serviceCard": {
+                "count": 1,
+                "location": "Bottom of the CardList",
+                "description": "List of flex items"
+                },"children": {
+                    "bannerData": {
+                    "count": 4,
+                    "location": "Inside service card",
+                    "description": "Heading and Description"
+                    }
+                }
+    }
+  },
+  },
+          
+  },
+  "children_orientation_description": "List of grids, cards,  --  all arranged in a flex format "
+  },
       "discountbanner": {
           "count": 1,
           "location": "below the popular sales",
@@ -390,7 +395,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {},
-  "sizing_updates": [],
+  "functionality": {"Banner section moved to the bottom of the popularSalesSection"},
+  "sizing_updates": ["Banner section moved to the bottom of the popularSalesSection"],
   "screen_and_layout_augmentations": []
 }
