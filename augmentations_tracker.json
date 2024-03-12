@@ -373,12 +373,12 @@ Augmentation ---
                   "children":{
                       "footerIconsContainer":{
                           "count":1,
-                          "location":"left side in footerBottom",
+                          "location":"Right side in footerBottom",
                           "description":"it is a flex container contains icons and text"
                       },
                       "footerImagesContainer":{
                           "count":1,
-                          "location":"right side in footerBottom",
+                          "location":"Left side in footerBottom",
                           "description":"it is a flex container contains images"
                       }
                   },
@@ -390,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {"In the trendyDesignSection component, Shuffled the Text (Trendy Design and View More)"},
-  "sizing_updates": ["In the trendyDesignSection component, Shuffled the Text (Trendy Design and View More)"],
+  "functionality": {"In the Footer/footerBottom component, Shuffled the footerIconsContainer and footerImagesContainer"},
+  "sizing_updates": ["In the Footer/footerBottom component, Shuffled the footerIconsContainer and footerImagesContainer"],
   "screen_and_layout_augmentations": []
 }
