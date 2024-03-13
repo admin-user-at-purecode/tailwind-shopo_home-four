@@ -14,10 +14,10 @@ Augmentation ---
       "selectbox",
       "navbar",
       "drawer",
+      "featureDesign",
       "banner",
       "trendyDesign", 
       "countdown",
-      "featureDesign",
       "productsAds",
       "newArrival",
       "brandsection",
@@ -164,9 +164,37 @@ Augmentation ---
       },
       "children_orientation_description": "CategoriesLists, list of texts(HomePage, Shop, Pages, About, Blog,contact) Container --  all arranged in a flex format "
     },
+    "featureDesignSection": {
+      "count": 1,
+      "location": "bottom of the NavBar",
+      "children": {   
+        "featureDesign": {
+          "count": 1,
+          "location": "left side in the featureDesign section",
+          "description": "Heading"
+        },
+        "viewMoreTitle": {
+          "count": 1,
+          "location": "Right side of the TrendyDesign text",
+          "description": "Text and right arrow image"
+        },
+        "SectionStyleThreeHmFour": {
+            "count": 1,
+            "location": "bottom of the Feature Design section",
+            "children": {   
+              "cardLists": {
+                "count": 4,
+                "location": "",
+                "description": "a card with heading and price "
+              }
+            }
+             }
+      },
+      "children_orientation_description": "heading is a text,cardLists is a card  viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,featureDesign and viewMoreTitle are arranged in a flex format"
+        },
     "home": {
   "count": 1,
-  "location": "Bottom of the Navbar",
+  "location": "Bottom of the featureDesignSection component",
   "children": {
           "banner": {
           "count": 1,
@@ -231,38 +259,11 @@ Augmentation ---
       "description": "a text heading and card inside"
       
     },
-    "featureDesignSection": {
-    "count": 1,
-    "location": "bottom of the CampaignCountDown",
-    "children": {   
-      "featureDesign": {
-        "count": 1,
-        "location": "left side in the featureDesign section",
-        "description": "Heading"
-      },
-      "viewMoreTitle": {
-        "count": 1,
-        "location": "Right side of the TrendyDesign text",
-        "description": "Text and right arrow image"
-      },
-      "SectionStyleThreeHmFour": {
-          "count": 1,
-          "location": "bottom of the Feature Design section",
-          "children": {   
-            "cardLists": {
-              "count": 4,
-              "location": "",
-              "description": "a card with heading and price "
-            }
-          }
-           }
-    },
-    "children_orientation_description": "heading is a text,cardLists is a card  viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,featureDesign and viewMoreTitle are arranged in a flex format"
-      },
+    
   
   "ProductsAds": {
       "count": 1,
-      "location": "bottom of the SectionStyleThreeHmFour",    
+      "location": "bottom of the CampaignCountDown component",    
       "description": "Image with full width "
         },
         "newArrivalSection": {
@@ -391,7 +392,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {""},
-  "sizing_updates": [""],
+  "functionality": {"Moved featureDesignSection commponent to the bottom of the NavBar"},
+  "sizing_updates": ["Moved featureDesignSection commponent to the bottom of the NavBar"],
   "screen_and_layout_augmentations": []
 }
