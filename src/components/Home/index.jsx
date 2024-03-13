@@ -21,12 +21,7 @@ function Index() {
       />
       
       <CampaignCountDown lastDate="2023-10-04 4:00:00" className="mb-[60px]" />
-      <SectionStyleOneHmFour
-        products={products.slice(20, 24)}
-        sectionTitle="Feature Design"
-        seeMoreUrl="/all-products"
-        className="new-products mb-[60px]"
-      />
+      
       <ProductsAds
         ads={[`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-3.png`]}
         className="products-ads-section mb-[60px]"
@@ -49,7 +44,13 @@ function Index() {
         seeMoreUrl="/all-products"
         className="mb-[60px]"
       />
-    </LayoutHomeFour>
+      <SectionStyleOneHmFour
+        products={products.slice(20, 24)}
+        sectionTitle="Feature Design"
+        seeMoreUrl="/all-products"
+        className="new-products mb-[60px]"
+      />      
+      </LayoutHomeFour>
   );
 }
 
