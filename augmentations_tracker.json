@@ -215,7 +215,7 @@ Augmentation ---
       "location": "bottom of the Trendy Design",
       "children": {   
         "cardLists": {
-          "count": 4,
+          "count": 10,
           "location": "",
           "description": "a card with heading and price "
         }
@@ -391,7 +391,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {""},
-  "sizing_updates": [""],
-  "screen_and_layout_augmentations": []
+  "functionality": {},
+  "sizing_updates": [],
+  "screen_and_layout_augmentations": ["Added Extra cards in the ProductCardStyleThree"]
 }
