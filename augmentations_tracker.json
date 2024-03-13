@@ -14,12 +14,12 @@ Augmentation ---
       "selectbox",
       "navbar",
       "drawer",
+      "newArrival",
       "banner",
       "trendyDesign", 
       "countdown",
       "featureDesign",
       "productsAds",
-      "newArrival",
       "brandsection",
       "productsAds",
       "popularSales",
@@ -164,19 +164,48 @@ Augmentation ---
       },
       "children_orientation_description": "CategoriesLists, list of texts(HomePage, Shop, Pages, About, Blog,contact) Container --  all arranged in a flex format "
     },
+    "newArrivalSection": {
+      "count": 1,
+      "location": "bottom of the NavBar",
+      "children": {   
+        "newArrival": {
+          "count": 1,
+          "location": "left side in the newArrival section",
+          "description": "Heading"
+        },
+
+        "viewMoreTitle": {
+          "count": 1,
+          "location": "Right side of the TrendyDesign text",
+          "description": "Text and right arrow image"
+        },
+        "SectionStyleOneHmFour": {
+          "count": 1,
+          "location": "bottom of the new arrival",
+          "children": {   
+            "cardLists": {
+              "count": 12,
+              "location": "",
+              "description": "a card with heading and price "
+            }
+          }
+           }
+      },
+      "children_orientation_description": "heading is a text, card lists is a card, viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,newArrival and viewMoreTitle are arranged in a flex format"        
+   },
     "home": {
   "count": 1,
-  "location": "Bottom of the Navbar",
+  "location": "Bottom of the newArrivalSection",
   "children": {
           "banner": {
           "count": 1,
-          "location": "Bottom of the Navbar",
+          "location": "Bottom of the newArrivalSection",
           "description": "List of Grids, Occupied full width"
           
           "children": {
               "Cardlist": {
               "count": 3,
-              "location": "Bottom of the Navbar",
+              "location": "Bottom of the newArrivalSection",
               "description": "List of cards"
               },
               "serviceCard": {
@@ -265,39 +294,11 @@ Augmentation ---
       "location": "bottom of the SectionStyleThreeHmFour",    
       "description": "Image with full width "
         },
-        "newArrivalSection": {
-          "count": 1,
-          "location": "bottom of the serviceCard",
-          "children": {   
-            "newArrival": {
-              "count": 1,
-              "location": "left side in the newArrival section",
-              "description": "Heading"
-            },
-
-            "viewMoreTitle": {
-              "count": 1,
-              "location": "Right side of the TrendyDesign text",
-              "description": "Text and right arrow image"
-            },
-            "SectionStyleOneHmFour": {
-              "count": 1,
-              "location": "bottom of the new arrival",
-              "children": {   
-                "cardLists": {
-                  "count": 12,
-                  "location": "",
-                  "description": "a card with heading and price "
-                }
-              }
-               }
-          },
-          "children_orientation_description": "heading is a text, card lists is a card, viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,newArrival and viewMoreTitle are arranged in a flex format"        
-       },
+        
     
     "brandsection": {
       "count": 1,
-      "location": "Bottom of the newArrivalSection",
+      "location": "Bottom of the ProductsAds",
       "description": "a flex container",
       "children": {
         "brandcards": {
@@ -391,7 +392,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {""},
-  "sizing_updates": [""],
+  "functionality": {"Moved the newArrivalSection component to the bottom of the navbar"},
+  "sizing_updates": ["Moved the newArrivalSection component to the bottom of the navbar"],
   "screen_and_layout_augmentations": []
 }

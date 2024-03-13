@@ -7,11 +7,18 @@ import datas from "../../mock_data/products.json";
 import CampaignCountDown from "./CampaignCountDown";
 import SectionStyleThreeHmFour from "../SectionStyleThreeHmFour";
 import SectionStyleFour from "../SectionStyleFour";
+import Drawer from '../Drawer'
 
 function Index() {
   const { products } = datas;
   return (
     <LayoutHomeFour>
+      <SectionStyleThreeHmFour
+        sectionTitle="New Arrival"
+        seeMoreUrl="/all-products"
+        products={products.slice(16, 28)}
+        className="mb-[60px]"
+      />
       <Banner className="mb-[60px]" />
       <SectionStyleOneHmFour
         products={products.slice(16, 20)}
