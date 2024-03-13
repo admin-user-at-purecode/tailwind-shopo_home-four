@@ -22,7 +22,7 @@ function Index() {
       
       <CampaignCountDown lastDate="2023-10-04 4:00:00" className="mb-[60px]" />
       <SectionStyleOneHmFour
-        products={products.slice(20, 24)}
+        products={products.slice(16, 28)}
         sectionTitle="Feature Design"
         seeMoreUrl="/all-products"
         className="new-products mb-[60px]"
