@@ -15,9 +15,9 @@ Augmentation ---
       "navbar",
       "drawer",
       "banner",
-      "trendyDesign", 
+      "trendyDesign",
+      "featureDesign", 
       "countdown",
-      "featureDesign",
       "productsAds",
       "newArrival",
       "brandsection",
@@ -224,16 +224,9 @@ Augmentation ---
       },
       "children_orientation_description": "heading is a text,cardLists is a card viewMoreTitle is a text with image  -- ProductCardStyleThree arranged in Grid format,trendyDesign and viewMoreTitle are arranged in a flex format"
   },
-    
-    "CampaignCountDown": {
-      "count": 1,
-      "location": "bottom of the ProductCardStyleThree",
-      "description": "a text heading and card inside"
-      
-    },
-    "featureDesignSection": {
+  "featureDesignSection": {
     "count": 1,
-    "location": "bottom of the CampaignCountDown",
+    "location": "bottom of the trendyDesignSection",
     "children": {   
       "featureDesign": {
         "count": 1,
@@ -259,7 +252,13 @@ Augmentation ---
     },
     "children_orientation_description": "heading is a text,cardLists is a card  viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,featureDesign and viewMoreTitle are arranged in a flex format"
       },
-  
+    
+    "CampaignCountDown": {
+      "count": 1,
+      "location": "bottom of the featureDesignSection",
+      "description": "a text heading and card inside"
+      
+    },
   "ProductsAds": {
       "count": 1,
       "location": "bottom of the SectionStyleThreeHmFour",    
@@ -391,7 +390,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {""},
-  "sizing_updates": [""],
+  "functionality": {"Moved featureDesignSection to the bottom of the trendyDesignSection"},
+  "sizing_updates": ["Moved featureDesignSection to the bottom of the trendyDesignSection"],
   "screen_and_layout_augmentations": []
 }
