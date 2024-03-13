@@ -33,7 +33,7 @@ Augmentation ---
       "location": "top of the page",
       "children": {
         "topbar-nav": {
-          "count": 3,
+          "count": 4,
           "location": "left side in the Tobbar",
           "description": "List of items with flex container"
         },
@@ -391,7 +391,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {""},
-  "sizing_updates": [""],
-  "screen_and_layout_augmentations": []
+  "functionality": {},
+  "sizing_updates": [],
+  "screen_and_layout_augmentations": ["Added 1 Extra List Item in the TopBar (Contact)"]
 }
