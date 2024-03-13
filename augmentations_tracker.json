@@ -17,12 +17,12 @@ Augmentation ---
       "banner",
       "trendyDesign", 
       "countdown",
+      "featureDesign",
       "productsAds",
       "newArrival",
       "brandsection",
       "productsAds",
       "popularSales",
-      "featureDesign",
       "DiscountBanner",
       "footer"
   ],
@@ -231,10 +231,38 @@ Augmentation ---
       "description": "a text heading and card inside"
       
     },
+    "featureDesignSection": {
+    "count": 1,
+    "location": "bottom of the CampaignCountDown",
+    "children": {   
+      "featureDesign": {
+        "count": 1,
+        "location": "left side in the featureDesign section",
+        "description": "Heading"
+      },
+      "viewMoreTitle": {
+        "count": 1,
+        "location": "Right side of the TrendyDesign text",
+        "description": "Text and right arrow image"
+      },
+      "SectionStyleThreeHmFour": {
+          "count": 1,
+          "location": "bottom of the Feature Design section",
+          "children": {   
+            "cardLists": {
+              "count": 4,
+              "location": "",
+              "description": "a card with heading and price "
+            }
+          }
+           }
+    },
+    "children_orientation_description": "heading is a text,cardLists is a card  viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,featureDesign and viewMoreTitle are arranged in a flex format"
+      },
   
   "ProductsAds": {
       "count": 1,
-      "location": "bottom of the CapaignCountDown",    
+      "location": "bottom of the SectionStyleThreeHmFour",    
       "description": "Image with full width "
         },
         "newArrivalSection": {
@@ -313,15 +341,6 @@ Augmentation ---
           },
           "children_orientation_description": "heading is a text,cardLists is card, viewMoreTitle is a text with image  -- ProductCardRowStyleTwo arranged in Grid format,popularSales and viewMoreTitle are arranged in a flex format"
       },
-      "featureDesignSection": {
-        "count": 1,
-        "location": "bottom of the popularSalesSection",
-        "children": {   
-          "featureDesign": {
-            "count": 1,
-            "location": "left side in the featureDesign section",
-            "description": "Heading"
-          },
       "discountbanner": {
           "count": 1,
           "location": "below the popular sales",
@@ -372,7 +391,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {"Moved featureDesignSection component to the bottom of the popularSalesSection"},
-  "sizing_updates": ["Moved featureDesignSection component to the bottom of the popularSalesSection"],
+  "functionality": {""},
+  "sizing_updates": [""],
   "screen_and_layout_augmentations": []
 }
