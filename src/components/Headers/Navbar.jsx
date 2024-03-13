@@ -83,7 +83,7 @@ export default function Navbar ({ className, type }) {
                         <Star className="fill-current" />
                       </span>
                     </span>
-                    <div className=" w-[220px] absolute left-0 top-[60px] hidden">
+                    <div className="sub-menu w-[220px] absolute left-0 top-[60px]">
                       <div
                       className="w-full bg-white flex justify-between items-center "
                       style={{
