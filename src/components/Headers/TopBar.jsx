@@ -28,11 +28,7 @@ export default function TopBar({ className }) {
                       Support
                     </span>
                 </li>
-                <li>
-                    <span className="text-xs leading-6 text-qblack font-500">
-                      Contact
-                    </span>
-                </li>
+                
               </ul>
             </div>
             <div className="topbar-dropdowns sm:block hidden">

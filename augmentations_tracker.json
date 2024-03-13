@@ -360,7 +360,7 @@ Augmentation ---
                   "location":"below footerLogo",
                   "children":{
                       "footerItem":{
-                          "count":4,
+                          "count":5,
                           "location":"Inside footerItemsContainer from left to right",
                           "description":"it is a flex item"
                       }
@@ -393,5 +393,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": ["Added 1 Extra List Item in the TopBar (Contact)"]
+  "screen_and_layout_augmentations": ["In the Footer, Added one Extra footerItem in the footerItemsContainer"]
 }

@@ -14,7 +14,10 @@ export default function Footer({ type }) {
     {
     menu: "Helpful",
     sub: ["Flash Sale" , "FAQ", "Support" ]
-    }
+    },{
+      menu: "Contact",
+      sub: ["Call" , "Chat" ]
+      }
     ]
 
   return (
