@@ -23,6 +23,7 @@ Augmentation ---
       "brandsection",
       "productsAds",
       "popularSales",
+      "productsAds",
       "DiscountBanner",
       "footer"
   ],
@@ -340,10 +341,14 @@ Augmentation ---
                }
           },
           "children_orientation_description": "heading is a text,cardLists is card, viewMoreTitle is a text with image  -- ProductCardRowStyleTwo arranged in Grid format,popularSales and viewMoreTitle are arranged in a flex format"
-      },
+      },"ProductsAdsone": {
+        "count": 1,
+        "location": "bottom of the popularSalesSection",    
+        "description": "Image with full width "
+          },
       "discountbanner": {
           "count": 1,
-          "location": "below the popular sales",
+          "location": "below the ProductsAdsone",
           "description": "a ads image with gmail address get the coupon button"
         },
         "footer":{
@@ -393,5 +398,5 @@ Augmentation ---
           },
   "functionality": {""},
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["Added Extra ProductsAdsone at the bottom of the popularSales"]
 }
