@@ -12,14 +12,7 @@ function Index() {
   const { products } = datas;
   return (
     <LayoutHomeFour>
-      <Banner className="mb-[60px]" />
-      <SectionStyleOneHmFour
-        products={products.slice(16, 20)}
-        sectionTitle="Trendy Design"
-        seeMoreUrl="/all-products"
-        className="new-products mb-[60px]"
-      />
-      
+      <Banner className="mb-[60px]" />     
       <CampaignCountDown lastDate="2023-10-04 4:00:00" className="mb-[60px]" />
       <SectionStyleOneHmFour
         products={products.slice(20, 24)}
@@ -31,6 +24,12 @@ function Index() {
         ads={[`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-3.png`]}
         className="products-ads-section mb-[60px]"
       />
+      <SectionStyleOneHmFour
+      products={products.slice(16, 20)}
+      sectionTitle="Trendy Design"
+      seeMoreUrl="/all-products"
+      className="new-products mb-[60px]"
+    />
       <SectionStyleThreeHmFour
         sectionTitle="New Arrival"
         seeMoreUrl="/all-products"

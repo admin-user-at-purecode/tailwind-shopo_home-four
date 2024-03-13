@@ -195,39 +195,10 @@ Augmentation ---
   },
   "children_orientation_description": "List of grids, cards,  --  all arranged in a flex format "
   },
-  "trendyDesignSection": {
-      "count": 1,
-      "location": "bottom of the serviceCard",
-      "children": {   
-        "trendyDesign": {
-          "count": 1,
-          "location": "Right side in the trendyDesign section",
-          "description": "Heading"
-        },
-        "viewMoreTitle": {
-          "count": 1,
-          "location": "Left side of the TrendyDesign text",
-          "description": "Text and right arrow image"
-        },
-        
-    "ProductCardStyleThree": {
-      "count": 1,
-      "location": "bottom of the Trendy Design",
-      "children": {   
-        "cardLists": {
-          "count": 4,
-          "location": "",
-          "description": "a card with heading and price "
-        }
-      }
-       }
-      },
-      "children_orientation_description": "heading is a text,cardLists is a card viewMoreTitle is a text with image  -- ProductCardStyleThree arranged in Grid format,trendyDesign and viewMoreTitle are arranged in a flex format"
-  },
-    
+      
     "CampaignCountDown": {
       "count": 1,
-      "location": "bottom of the ProductCardStyleThree",
+      "location": "bottom of the ServiceCard",
       "description": "a text heading and card inside"
       
     },
@@ -265,9 +236,38 @@ Augmentation ---
       "location": "bottom of the SectionStyleThreeHmFour",    
       "description": "Image with full width "
         },
+        "trendyDesignSection": {
+          "count": 1,
+          "location": "bottom of the ProductsAds",
+          "children": {   
+            "trendyDesign": {
+              "count": 1,
+              "location": "Right side in the trendyDesign section",
+              "description": "Heading"
+            },
+            "viewMoreTitle": {
+              "count": 1,
+              "location": "Left side of the TrendyDesign text",
+              "description": "Text and right arrow image"
+            },
+            
+        "ProductCardStyleThree": {
+          "count": 1,
+          "location": "bottom of the Trendy Design",
+          "children": {   
+            "cardLists": {
+              "count": 4,
+              "location": "",
+              "description": "a card with heading and price "
+            }
+          }
+           }
+          },
+          "children_orientation_description": "heading is a text,cardLists is a card viewMoreTitle is a text with image  -- ProductCardStyleThree arranged in Grid format,trendyDesign and viewMoreTitle are arranged in a flex format"
+      },
         "newArrivalSection": {
           "count": 1,
-          "location": "bottom of the serviceCard",
+          "location": "bottom of the trendyDesignSection",
           "children": {   
             "newArrival": {
               "count": 1,
@@ -391,7 +391,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {""},
-  "sizing_updates": [""],
+  "functionality": {"Moved Trendy Design component to the bottom of the ProductsAds"},
+  "sizing_updates": ["Moved Trendy Design component to the bottom of the ProductsAds"],
   "screen_and_layout_augmentations": []
 }
