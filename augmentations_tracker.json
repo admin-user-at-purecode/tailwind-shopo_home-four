@@ -14,9 +14,9 @@ Augmentation ---
       "selectbox",
       "navbar",
       "drawer",
-      "banner",
-      "trendyDesign", 
+      "banner", 
       "countdown",
+      "trendyDesign",
       "featureDesign",
       "productsAds",
       "newArrival",
@@ -195,7 +195,14 @@ Augmentation ---
   },
   "children_orientation_description": "List of grids, cards,  --  all arranged in a flex format "
   },
-  "trendyDesignSection": {
+  
+    
+    "CampaignCountDown": {
+      "count": 1,
+      "location": "bottom of the ProductCardStyleThree",
+      "description": "a text heading and card inside"
+    },
+    "trendyDesignSection": {
       "count": 1,
       "location": "bottom of the serviceCard",
       "children": {   
@@ -224,13 +231,6 @@ Augmentation ---
       },
       "children_orientation_description": "heading is a text,cardLists is a card viewMoreTitle is a text with image  -- ProductCardStyleThree arranged in Grid format,trendyDesign and viewMoreTitle are arranged in a flex format"
   },
-    
-    "CampaignCountDown": {
-      "count": 1,
-      "location": "bottom of the ProductCardStyleThree",
-      "description": "a text heading and card inside"
-      
-    },
     "featureDesignSection": {
     "count": 1,
     "location": "bottom of the CampaignCountDown",
@@ -391,7 +391,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {""},
-  "sizing_updates": [""],
+  "functionality": {"Moved trendyDesignSection component at the bottom of the CampaignCountDown section"},
+  "sizing_updates": ["Moved trendyDesignSection component at the bottom of the CampaignCountDown section"],
   "screen_and_layout_augmentations": []
 }
