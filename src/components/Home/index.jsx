@@ -37,7 +37,13 @@ function Index() {
         products={products.slice(16, 28)}
         className="mb-[60px]"
       />
-<BrandSection className="mb-[60px]" />
+      <BrandSection className="mb-[60px]" />
+      <SectionStyleOneHmFour
+        products={products.slice(20, 24)}
+        sectionTitle="Feature Design"
+        seeMoreUrl="/all-products"
+        className="new-products mb-[60px]"
+      />
       <ProductsAds
         sectionHeight="164"
         ads={[`${import.meta.env.VITE_PUBLIC_URL}/src/assets/images/ads-4.png`]}
