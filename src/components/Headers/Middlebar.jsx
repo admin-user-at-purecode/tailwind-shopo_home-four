@@ -53,6 +53,11 @@ export default function Middlebar({ className }) {
                     <Star />
                   </span>
               </div>
+              <div>
+                  <span>
+                    <Star />
+                  </span>
+              </div>
             </div>
           </div>
         </div>
