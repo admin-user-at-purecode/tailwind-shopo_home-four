@@ -391,7 +391,8 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {""},
-  "sizing_updates": [""],
-  "screen_and_layout_augmentations": []
+  "functionality": {},
+  "sizing_updates": [],
+              "Cardlist": {
+  "screen_and_layout_augmentations": ["In the banner Component, Added Chip in the Cardlist"]
 }
