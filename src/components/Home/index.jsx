@@ -7,6 +7,7 @@ import datas from "../../mock_data/products.json";
 import CampaignCountDown from "./CampaignCountDown";
 import SectionStyleThreeHmFour from "../SectionStyleThreeHmFour";
 import SectionStyleFour from "../SectionStyleFour";
+import DiscountBanner from "./DiscountBanner";
 
 function Index() {
   const { products } = datas;
@@ -37,6 +38,7 @@ function Index() {
         products={products.slice(16, 28)}
         className="mb-[60px]"
       />
+      <DiscountBanner />
 <BrandSection className="mb-[60px]" />
       <ProductsAds
         sectionHeight="164"

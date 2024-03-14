@@ -20,6 +20,7 @@ Augmentation ---
       "featureDesign",
       "productsAds",
       "newArrival",
+      "DiscountBanner",
       "brandsection",
       "productsAds",
       "popularSales",
@@ -293,7 +294,11 @@ Augmentation ---
                }
           },
           "children_orientation_description": "heading is a text, card lists is a card, viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,newArrival and viewMoreTitle are arranged in a flex format"        
-       },
+       },"discountbanner": {
+        "count": 1,
+        "location": "below the popular sales",
+        "description": "a ads image with gmail address get the coupon button"
+      },
     
     "brandsection": {
       "count": 1,
@@ -391,7 +396,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {""},
-  "sizing_updates": [""],
+  "functionality": {},
+  "sizing_updates": [],
   "screen_and_layout_augmentations": []
 }
