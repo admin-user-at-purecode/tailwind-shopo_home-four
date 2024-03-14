@@ -19,7 +19,8 @@ Augmentation ---
       "countdown",
       "featureDesign",
       "productsAds",
-      "newArrival",
+      "newArrival", 
+      "countdown",
       "brandsection",
       "productsAds",
       "popularSales",
@@ -293,7 +294,12 @@ Augmentation ---
                }
           },
           "children_orientation_description": "heading is a text, card lists is a card, viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,newArrival and viewMoreTitle are arranged in a flex format"        
-       },
+       },"CampaignCountDown": {
+        "count": 1,
+        "location": "bottom of the newArrivalSection",
+        "description": "a text heading and card inside"
+        
+      },
     
     "brandsection": {
       "count": 1,
@@ -391,7 +397,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {""},
-  "sizing_updates": [""],
-  "screen_and_layout_augmentations": []
+  "functionality": {},
+  "sizing_updates": [],
+  "screen_and_layout_augmentations": ["Added CampaignCountDown at the bottom of the newArrivalSection component"]
 }

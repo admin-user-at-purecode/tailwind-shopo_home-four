@@ -37,6 +37,8 @@ function Index() {
         products={products.slice(16, 28)}
         className="mb-[60px]"
       />
+      <CampaignCountDown lastDate="2023-10-04 4:00:00" className="mb-[60px]" />
+
 <BrandSection className="mb-[60px]" />
       <ProductsAds
         sectionHeight="164"
