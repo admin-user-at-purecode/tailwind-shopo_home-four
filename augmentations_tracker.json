@@ -20,6 +20,7 @@ Augmentation ---
       "featureDesign",
       "productsAds",
       "newArrival",
+      "popularSales",
       "brandsection",
       "productsAds",
       "popularSales",
@@ -294,10 +295,37 @@ Augmentation ---
           },
           "children_orientation_description": "heading is a text, card lists is a card, viewMoreTitle is a text with image  -- SectionStyleOneHmFour arranged in Grid format,newArrival and viewMoreTitle are arranged in a flex format"        
        },
-    
+       "popularSalesSection": {
+        "count": 1,
+        "location": "bottom of the newArrivalSection",
+        "children": {   
+          "popularSales": {
+            "count": 1,
+            "location": "left side in the popularSales section",
+            "description": "Heading"
+          },
+          "viewMoreTitle": {
+            "count": 1,
+            "location": "Right side of the popularSales text",
+            "description": "Text and right arrow image"
+          },
+          "ProductCardRowStyleTwo": {
+            "count": 1,
+            "location": "bottom of the new arrival",
+            "children": {   
+              "cardLists": {
+                "count": 12,
+                "location": "",
+                "description": "a card with heading and price "
+              }
+            }
+             }
+        },
+        "children_orientation_description": "heading is a text,cardLists is card, viewMoreTitle is a text with image  -- ProductCardRowStyleTwo arranged in Grid format,popularSales and viewMoreTitle are arranged in a flex format"
+    },
     "brandsection": {
       "count": 1,
-      "location": "Bottom of the newArrivalSection",
+      "location": "Bottom of the popularSalesSection",
       "description": "a flex container",
       "children": {
         "brandcards": {
@@ -391,7 +419,7 @@ Augmentation ---
           "children_orientation_description":"footerLogo is a image and (footerItemsContainer,footerBottom)--all are flex containers"
         }
           },
-  "functionality": {""},
-  "sizing_updates": [""],
-  "screen_and_layout_augmentations": []
+  "functionality": {},
+  "sizing_updates": [],
+  "screen_and_layout_augmentations": ["Added brandsection to the bottom of the newArrivalSection"]
 }

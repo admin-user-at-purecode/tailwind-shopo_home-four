@@ -37,6 +37,12 @@ function Index() {
         products={products.slice(16, 28)}
         className="mb-[60px]"
       />
+      <SectionStyleFour
+      products={products.slice(16, 28)}
+      sectionTitle="Popular Sales"
+      seeMoreUrl="/all-products"
+      className="mb-[60px]"
+    />
 <BrandSection className="mb-[60px]" />
       <ProductsAds
         sectionHeight="164"
