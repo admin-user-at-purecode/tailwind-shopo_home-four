@@ -38,6 +38,23 @@ export default function Footer({ type }) {
                 />
             )}
           </div>
+          <div className="mb-[40px]">
+            {type === 3 ? (
+                <img
+                  width="152"
+                  height="36"
+                  src={logo}
+                  alt="logo"
+                />
+            ) : (
+                <img
+                  width="152"
+                  height="36"
+                  src={logo}
+                  alt="logo"
+                />
+            )}
+          </div>
           <div className="w-full h-[1px] bg-[#E9E9E9]"></div>
         </div>
         <div className="lg:flex justify-between mb-[30px]">
