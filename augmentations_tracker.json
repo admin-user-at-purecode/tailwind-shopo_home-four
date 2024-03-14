@@ -398,5 +398,5 @@ Augmentation ---
           },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["Added discountbanner component at the bottom of the newArrivalSection component"]
 }
