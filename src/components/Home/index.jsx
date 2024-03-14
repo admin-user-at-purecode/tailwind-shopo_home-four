@@ -49,6 +49,7 @@ function Index() {
         seeMoreUrl="/all-products"
         className="mb-[60px]"
       />
+      <Banner className="mb-[60px]" />
     </LayoutHomeFour>
   );
 }
