@@ -48,7 +48,12 @@ function Index() {
         sectionTitle="Popular Sales"
         seeMoreUrl="/all-products"
         className="mb-[60px]"
-      />
+      /><SectionStyleOneHmFour
+      products={products.slice(20, 24)}
+      sectionTitle="Feature Design"
+      seeMoreUrl="/all-products"
+      className="new-products mb-[60px]"
+    />
     </LayoutHomeFour>
   );
 }
