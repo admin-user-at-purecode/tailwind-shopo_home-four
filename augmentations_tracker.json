@@ -306,10 +306,37 @@ Augmentation ---
           "description": "cards with grid container having brand images."
         }
       }
-    },
+    }, "popularSalesSection": {
+      "count": 1,
+      "location": "bottom of the brandsection",
+      "children": {   
+        "popularSales": {
+          "count": 1,
+          "location": "left side in the popularSales section",
+          "description": "Heading"
+        },
+        "viewMoreTitle": {
+          "count": 1,
+          "location": "Right side of the popularSales text",
+          "description": "Text and right arrow image"
+        },
+        "ProductCardRowStyleTwo": {
+          "count": 1,
+          "location": "bottom of the new arrival",
+          "children": {   
+            "cardLists": {
+              "count": 12,
+              "location": "",
+              "description": "a card with heading and price "
+            }
+          }
+           }
+      },
+      "children_orientation_description": "heading is a text,cardLists is card, viewMoreTitle is a text with image  -- ProductCardRowStyleTwo arranged in Grid format,popularSales and viewMoreTitle are arranged in a flex format"
+  },
     "ProductsAdsone": {
       "count": 1,
-      "location": "bottom of the new arrival section",    
+      "location": "bottom of the popularSalesSection",    
       "description": "Image with full width "
         },
 
@@ -393,5 +420,5 @@ Augmentation ---
           },
   "functionality": {""},
   "sizing_updates": [""],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["Added popularSalesSection at the bottom of the brandsection"]
 }
